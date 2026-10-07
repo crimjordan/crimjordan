@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Remote-first Summer 2027 internship tracker for justice, policy, research and data opportunities.">
+<title>Summer 2027 Internship Tracker</title>
+<style>
+:root{--bg:#f4f6f8;--panel:#fff;--ink:#18212b;--muted:#687385;--line:#e1e6eb;--navy:#17334f;--navy2:#234f75;--green:#17663a;--amber:#805700;--rose:#7c405e;--shadow:0 10px 28px rgba(16,24,40,.07)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1320px;margin:auto;padding:28px 22px 64px}.hero{background:linear-gradient(135deg,#142b43,#28597f);color:white;border-radius:24px;padding:30px;box-shadow:var(--shadow)}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;opacity:.75}.hero h1{font-size:clamp(31px,4vw,50px);line-height:1.02;margin:8px 0 10px}.hero p{max-width:900px;margin:0;line-height:1.55;opacity:.9}
+.meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.meta span{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.12);font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.stat{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow)}.stat b{display:block;font-size:29px}.stat span{font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.toolbar{position:sticky;top:8px;z-index:5;background:rgba(255,255,255,.97);border:1px solid var(--line);border-radius:17px;padding:13px;box-shadow:var(--shadow);display:grid;grid-template-columns:1.6fr repeat(4,1fr);gap:9px}
+input,select,textarea{font:inherit;color:var(--ink);border:1px solid #d5dbe2;background:#fff;border-radius:10px;padding:10px 11px;width:100%}
+.section-head{margin:28px 2px 12px;display:flex;align-items:end;justify-content:space-between;gap:14px}.section-head h2{margin:0;font-size:22px}.section-head p{margin:4px 0 0;color:var(--muted);font-size:13px}.count{font-size:12px;font-weight:800;background:#fff3cd;color:#6d5100;border-radius:999px;padding:6px 9px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.top{display:flex;justify-content:space-between;gap:14px}.org{font-size:13px;color:var(--muted);font-weight:800}.title{font-size:19px;font-weight:850;line-height:1.25;margin-top:3px}.score{min-width:58px;height:58px;border-radius:50%;display:grid;place-content:center;text-align:center;background:#eaf2f8;border:1px solid #d3e2ed;color:var(--navy);font-weight:900}.score small{font-size:9px;color:var(--muted);font-weight:800}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font-size:11px;border-radius:999px;padding:6px 8px;background:#eef2f6;color:#45515f}.remote{background:#e8f5ec;color:var(--green)}.strong{background:#e8f5ec;color:var(--green)}.likely{background:#eaf2f8;color:#2d5879}.check{background:#fff4da;color:var(--amber)}.law{background:#f6eaf0;color:var(--rose)}
+.why{font-size:14px;line-height:1.5}.details{font-size:13px;color:var(--muted);line-height:1.45}.facts{display:grid;grid-template-columns:1fr 1fr;gap:8px}.fact{background:#fafbfc;border:1px solid #edf0f2;border-radius:10px;padding:9px;font-size:13px}.label{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;margin-bottom:3px}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:8px}.btn{text-decoration:none;text-align:center;border-radius:10px;padding:10px 12px;font-size:13px;font-weight:850;border:1px solid var(--line);background:#fff}.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}.btn.primary:hover{background:var(--navy2)}
+textarea.notes{min-height:70px;resize:vertical}.empty{grid-column:1/-1;background:#fff;border:1px dashed #cfd6dd;border-radius:16px;padding:28px;text-align:center;color:var(--muted)}
+.footer{margin-top:26px;color:var(--muted);font-size:12px;line-height:1.55}.updated{font-weight:800}
+@media(max-width:900px){.stats{grid-template-columns:1fr 1fr}.toolbar{grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}.grid{grid-template-columns:1fr}}
+@media(max-width:560px){.wrap{padding:14px 11px 50px}.hero{padding:22px;border-radius:18px}.toolbar{position:static;grid-template-columns:1fr}.toolbar input{grid-column:auto}.facts,.controls{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+  <div class="kicker">Remote-first opportunity dashboard</div>
+  <h1>Summer 2027 Internship Tracker</h1>
+  <p>Prioritized for criminal justice, policing, surveillance and civil liberties, public policy, applied research, quantitative analysis, and adjacent opportunities that add useful policy or methods experience.</p>
+  <div class="meta">
+    <span id="updatedMeta">Updated —</span><span>Remote preferred, not required</span><span>Status & notes save in this browser</span>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat"><b id="liveN">0</b><span>Current matches</span></div>
+  <div class="stat"><b id="remoteN">0</b><span>Remote / virtual</span></div>
+  <div class="stat"><b id="highN">0</b><span>Fit 90+</span></div>
+  <div class="stat"><b id="appliedN">0</b><span>Applied / interviewing</span></div>
+</section>
+
+<section class="toolbar">
+  <input id="q" type="search" placeholder="Search roles, organizations, topics…">
+  <select id="arrangement"><option value="">Any arrangement</option></select>
+  <select id="category"><option value="">Any category</option></select>
+  <select id="eligibility"><option value="">Any eligibility</option></select>
+  <select id="sort"><option value="fit">Best fit</option><option value="remote">Remote first</option><option value="org">Organization A–Z</option></select>
+</section>
+
+<div class="section-head"><div><h2>Current matches</h2><p>Roles worth evaluating now for Summer 2027.</p></div><span class="count" id="shown"></span></div>
+<section class="grid" id="liveGrid"></section>
+
+<div class="section-head"><div><h2>Future JD watchlist</h2><p>High-fit roles that appear to require law-school enrollment.</p></div></div>
+<section class="grid" id="futureGrid"></section>
+
+<div class="footer">
+  Fit scores prioritize relevance to your stated interests and work arrangement; they are not employer assessments. Always verify eligibility, deadlines, compensation, and availability at the original posting before applying. <span class="updated" id="updatedFoot"></span>
+</div>
+</div>
+<script src="data.js"></script>
+<script>
+const D=window.TRACKER_DATA||{lastUpdated:"unknown",jobs:[]},JOBS=D.jobs;
+const STATUS=["Not started","Saved","Applying","Applied","Interview","Offer","Pass"];
+const key="summer2027InternshipTrackerState",state=JSON.parse(localStorage.getItem(key)||"{}");
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const get=id=>state[id]||(state[id]={status:"Not started",notes:""});
+function save(){localStorage.setItem(key,JSON.stringify(state));stats()}
+function eligClass(e){if(e==="Strong match")return"strong";if(e==="Likely match")return"likely";if(e==="Law students only")return"law";return"check"}
+function remoteClass(a){return /remote|virtual/i.test(a)?"remote":""}
+function card(j){
+ const s=get(j.id);
+ return `<article class="card" data-id="${esc(j.id)}">
+ <div class="top"><div><div class="org">${esc(j.organization)}</div><div class="title">${esc(j.title)}</div></div><div class="score">${j.fit}<small>FIT</small></div></div>
+ <div class="chips"><span class="chip ${remoteClass(j.arrangement)}">${esc(j.arrangement)}</span><span class="chip">${esc(j.category)}</span><span class="chip ${eligClass(j.eligibility)}">${esc(j.eligibility)}</span></div>
+ <div class="why">${esc(j.why)}</div>
+ <div class="facts"><div class="fact"><span class="label">Location</span>${esc(j.location)}</div><div class="fact"><span class="label">Pay</span>${esc(j.pay)}</div><div class="fact"><span class="label">Deadline</span>${esc(j.deadline)}</div><div class="fact"><span class="label">Source</span>${esc(j.source)}</div></div>
+ <div class="details">${esc(j.details)}</div>
+ <div class="controls"><select class="status">${STATUS.map(x=>`<option ${x===s.status?"selected":""}>${x}</option>`).join("")}</select><a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open posting ↗</a></div>
+ <textarea class="notes" placeholder="Your notes: materials, contact, interview date…">${esc(s.notes)}</textarea>
+ </article>`
+}
+function unique(k){return [...new Set(JOBS.map(j=>j[k]))].sort()}
+unique("arrangement").forEach(v=>$("arrangement").insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
+unique("category").forEach(v=>$("category").insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
+unique("eligibility").forEach(v=>$("eligibility").insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
+function filtered(){
+ const q=$("q").value.trim().toLowerCase(),a=$("arrangement").value,c=$("category").value,e=$("eligibility").value;
+ let x=JOBS.filter(j=>{
+   const hay=[j.title,j.organization,j.category,j.arrangement,j.location,j.why,j.details].join(" ").toLowerCase();
+   return(!q||hay.includes(q))&&(!a||j.arrangement===a)&&(!c||j.category===c)&&(!e||j.eligibility===e)
+ });
+ const s=$("sort").value;
+ x.sort((m,n)=>s==="org"?m.organization.localeCompare(n.organization):s==="remote"?((/remote|virtual/i.test(n.arrangement)?1:0)-(/remote|virtual/i.test(m.arrangement)?1:0)||n.fit-m.fit):n.fit-m.fit);
+ return x
+}
+function render(){
+ const rows=filtered(),live=rows.filter(j=>!j.future),future=rows.filter(j=>j.future);
+ $("liveGrid").innerHTML=live.length?live.map(card).join(""):`<div class="empty">No current matches under these filters.</div>`;
+ $("futureGrid").innerHTML=future.length?future.map(card).join(""):`<div class="empty">No watchlist matches under these filters.</div>`;
+ $("shown").textContent=`${live.length} shown`;
+ document.querySelectorAll(".card").forEach(el=>{
+   const id=el.dataset.id;
+   el.querySelector(".status").addEventListener("change",ev=>{get(id).status=ev.target.value;save()});
+   el.querySelector(".notes").addEventListener("input",ev=>{get(id).notes=ev.target.value;save()})
+ });
+ stats()
+}
+function stats(){
+ const live=JOBS.filter(j=>!j.future);
+ $("liveN").textContent=live.length;
+ $("remoteN").textContent=live.filter(j=>/remote|virtual/i.test(j.arrangement)).length;
+ $("highN").textContent=live.filter(j=>j.fit>=90).length;
+ $("appliedN").textContent=Object.values(state).filter(x=>["Applied","Interview","Offer"].includes(x.status)).length
+}
+["q","arrangement","category","eligibility","sort"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
+$("updatedMeta").textContent=`Updated ${D.lastUpdated}`;
+$("updatedFoot").textContent=`Data snapshot: ${D.lastUpdated}.`;
+render();
+</script>
+</body></html>
