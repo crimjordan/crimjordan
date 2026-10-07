@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-06T20:29:00-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -222,5 +222,8 @@ window.TRACKER_DATA = {
       "source": "Brennan Center",
       "future": true
     }
-  ]
+  ],
+  "lastSearched": "2026-10-06",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 };
