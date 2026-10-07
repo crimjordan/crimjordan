@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-06T20:29:00-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -13,7 +13,7 @@
       "eligibility": "Strong match",
       "fit": 99,
       "why": "Direct match for criminal justice, police accountability, prosecutorial accountability, decarceration, policy research, and advocacy.",
-      "details": "Full-time for 10\u201312 weeks. The posting explicitly accepts graduate students in criminal justice, public policy, or related fields.",
+      "details": "Full-time for 10–12 weeks. The posting explicitly accepts graduate students in criminal justice, public policy, or related fields.",
       "url": "https://www.aclunorcal.org/jobs/summer-2027-criminal-law-immigration-project-internship/",
       "source": "ACLU NorCal",
       "future": false
@@ -30,7 +30,7 @@
       "eligibility": "Likely match",
       "fit": 97,
       "why": "Excellent fit for privacy, surveillance, digital civil liberties, technology policy, open government, research, and advocacy.",
-      "details": "Full-time for 10\u201312 weeks. Open to graduate students in listed or related fields; confirm that criminology/criminal justice qualifies as a related field.",
+      "details": "Full-time for 10–12 weeks. Open to graduate students in listed or related fields; confirm that criminology/criminal justice qualifies as a related field.",
       "url": "https://www.aclunorcal.org/jobs/summer-2027-democracy-speech-technology-internship/",
       "source": "ACLU NorCal",
       "future": false
@@ -47,7 +47,7 @@
       "eligibility": "Strong match",
       "fit": 96,
       "why": "Direct policing exposure with opportunities that can span research, programs, policy, communications, and criminal-justice practice.",
-      "details": "Summer 2027 term runs May 18\u2013August 6. Program terms are 10\u201312 weeks with flexible schedules up to 40 hours/week.",
+      "details": "Summer 2027 term runs May 18–August 6. Program terms are 10–12 weeks with flexible schedules up to 40 hours/week.",
       "url": "https://www.theiacp.org/iacp-internship-program",
       "source": "IACP",
       "future": false
@@ -98,7 +98,7 @@
       "eligibility": "Check requirements",
       "fit": 90,
       "why": "Substantive government-relations and policy experience with a substantial virtual component.",
-      "details": "Runs January\u2013July 2027, so it overlaps Summer 2027 rather than being a summer-only internship.",
+      "details": "Runs January–July 2027, so it overlaps Summer 2027 rather than being a summer-only internship.",
       "url": "https://to.indeed.com/aabmndwcvxh6",
       "source": "Current job listing",
       "future": false
@@ -110,7 +110,7 @@
       "category": "Nonprofit & policy",
       "arrangement": "Remote",
       "location": "Remote",
-      "pay": "$14,997\u2013$15,000 for internship",
+      "pay": "$14,997–$15,000 for internship",
       "deadline": "Not stated",
       "eligibility": "Check requirements",
       "fit": 88,
@@ -122,12 +122,12 @@
     },
     {
       "id": "conagra-analytics-2027",
-      "title": "Analytics Internship \u2014 Summer 2027",
+      "title": "Analytics Internship — Summer 2027",
       "organization": "Conagra Brands",
       "category": "Research & data",
       "arrangement": "In person / verify",
       "location": "Omaha, NE",
-      "pay": "$20\u2013$28/hour",
+      "pay": "$20–$28/hour",
       "deadline": "Not stated",
       "eligibility": "Check requirements",
       "fit": 87,
@@ -139,7 +139,7 @@
     },
     {
       "id": "emblem-econ-2027",
-      "title": "2027 Summer Healthcare Data Analytics \u2014 Healthcare Economics Intern",
+      "title": "2027 Summer Healthcare Data Analytics — Healthcare Economics Intern",
       "organization": "EmblemHealth",
       "category": "Research & data",
       "arrangement": "Remote",
@@ -156,12 +156,12 @@
     },
     {
       "id": "amgen-grad-ds-2027",
-      "title": "Grad Intern \u2014 Data Scientist \u2014 Technology, AI & Data (Summer 2027)",
+      "title": "Grad Intern — Data Scientist — Technology, AI & Data (Summer 2027)",
       "organization": "Amgen",
       "category": "Research, data & AI",
       "arrangement": "Remote",
-      "location": "United States \u2014 Remote",
-      "pay": "$35.34\u2013$41.20/hour",
+      "location": "United States — Remote",
+      "pay": "$35.34–$41.20/hour",
       "deadline": "Not stated",
       "eligibility": "Check requirements",
       "fit": 84,
@@ -173,7 +173,7 @@
     },
     {
       "id": "stryker-raqa-2027",
-      "title": "Summer 2027 Internship \u2014 Post Market Regulatory Affairs",
+      "title": "Summer 2027 Internship — Post Market Regulatory Affairs",
       "organization": "Stryker",
       "category": "Regulation & compliance",
       "arrangement": "Virtual",
@@ -200,7 +200,7 @@
       "eligibility": "Check requirements",
       "fit": 76,
       "why": "Broader Washington policy exposure; a reasonable adjacent option if justice-specific opportunities are limited.",
-      "details": "10\u201312 week summer internship focused on the intersection of industry and U.S. policy.",
+      "details": "10–12 week summer internship focused on the intersection of industry and U.S. policy.",
       "url": "https://to.indeed.com/aatvqhk7p8ls",
       "source": "Current job listing",
       "future": false
@@ -222,5 +222,8 @@
       "source": "Brennan Center",
       "future": true
     }
-  ]
+  ],
+  "lastSearched": "2026-10-06",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 }
