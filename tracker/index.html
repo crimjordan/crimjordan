@@ -18,6 +18,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-se
 .wrap{max-width:1180px;margin:0 auto;padding:34px 24px 72px}
 .hero{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:34px 36px;box-shadow:var(--shadow);position:relative;overflow:hidden}
 .hero:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--blue),#5f8db6)}
+.site-nav{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}
+.site-nav a{text-decoration:none;color:#59616d;font-size:12px;font-weight:800;padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:#fff}
+.site-nav a:hover{border-color:#cdd7e0;color:var(--navy)}
+.site-nav a.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.site-nav .nav-count{display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:rgba(255,255,255,.18);font-size:9px;margin-left:3px}
 .kicker{display:inline-flex;align-items:center;gap:7px;font-size:11px;text-transform:uppercase;letter-spacing:.14em;font-weight:850;color:var(--blue);background:var(--blue-soft);border:1px solid #dceaf6;border-radius:999px;padding:7px 10px}
 .hero h1{font-size:clamp(34px,5vw,52px);letter-spacing:-.045em;line-height:1.02;margin:16px 0 12px;max-width:760px}
 .hero p{max-width:800px;margin:0;color:#4b5563;line-height:1.65;font-size:15px}
@@ -47,6 +52,11 @@ input:focus,select:focus,textarea:focus{border-color:#8fb4d3;box-shadow:0 0 0 3p
 .title{font-size:18px;font-weight:800;line-height:1.28;margin-top:5px;letter-spacing:-.02em}
 .score{min-width:54px;height:54px;border-radius:14px;display:grid;place-content:center;text-align:center;background:#f6f9fc;border:1px solid #dce8f2;color:var(--navy);font-weight:900;font-size:17px}
 .score small{display:block;font-size:8px;letter-spacing:.08em;color:var(--muted);font-weight:850;margin-top:1px}
+.top-actions{display:flex;align-items:flex-start;gap:7px}
+.like-btn{appearance:none;border:1px solid #ead8df;background:#fff;border-radius:12px;padding:9px 10px;color:#9a5870;font:inherit;font-size:11px;font-weight:850;cursor:pointer;white-space:nowrap;transition:background .15s,border-color .15s,color .15s,transform .15s}
+.like-btn:hover{transform:translateY(-1px);background:#fbf3f6}
+.like-btn.liked{background:var(--rose-soft);border-color:#e9cfd9;color:var(--rose)}
+.like-btn .heart{font-size:14px;line-height:1;vertical-align:-1px;margin-right:4px}
 
 .chips{display:flex;flex-wrap:wrap;gap:5px}
 .chip{font-size:10px;font-weight:750;border-radius:999px;padding:5px 8px;background:#f3f4f6;color:#59616d;border:1px solid #eceef1}
@@ -104,6 +114,10 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
 <body>
 <div class="wrap">
 <section class="hero">
+  <nav class="site-nav" aria-label="Tracker pages">
+    <a class="active" href="./">All internships</a>
+    <a href="liked/">♥ Liked <span class="nav-count" id="likedNavCount">0</span></a>
+  </nav>
   <div class="kicker">Personal internship search</div>
   <h1>Summer 2027 Internship Tracker</h1>
   <p>A focused shortlist of Summer 2027 opportunities across criminal justice, policing, civil liberties, public policy, research, and quantitative analysis — with remote roles prioritized.</p>
@@ -157,14 +171,14 @@ const STATUS=["Not started","Saved","Applying","Applied","Interview","Offer","Pa
 const key="summer2027InternshipTrackerState",state=JSON.parse(localStorage.getItem(key)||"{}");
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-const get=id=>state[id]||(state[id]={status:"Not started",notes:""});
+const get=id=>state[id]||(state[id]={status:"Not started",notes:"",liked:false});
 function save(){localStorage.setItem(key,JSON.stringify(state));stats()}
 function eligClass(e){if(e==="Strong match")return"strong";if(e==="Likely match")return"likely";if(e==="Law students only")return"law";return"check"}
 function remoteClass(a){return /remote|virtual/i.test(a)?"remote":""}
 function card(j){
  const s=get(j.id);
  return `<article class="card" data-id="${esc(j.id)}">
- <div class="top"><div><div class="org">${esc(j.organization)}</div><div class="title">${esc(j.title)}</div></div><div class="score">${j.fit}<small>FIT</small></div></div>
+ <div class="top"><div><div class="org">${esc(j.organization)}</div><div class="title">${esc(j.title)}</div></div><div class="top-actions"><button class="like-btn ${s.liked?'liked':''}" type="button" aria-pressed="${s.liked?'true':'false'}"><span class="heart">♥</span>${s.liked?'Liked':'Like'}</button><div class="score">${j.fit}<small>FIT</small></div></div></div>
  <div class="chips">${(D.newJobIds||[]).includes(j.id)?'<span class="chip newchip">NEW</span>':''}<span class="chip ${remoteClass(j.arrangement)}">${esc(j.arrangement)}</span><span class="chip">${esc(j.category)}</span><span class="chip ${eligClass(j.eligibility)}">${esc(j.eligibility)}</span></div>
  <div class="why">${esc(j.why)}</div>
  <div class="facts"><div class="fact"><span class="label">Location</span>${esc(j.location)}</div><div class="fact"><span class="label">Pay</span>${esc(j.pay)}</div><div class="fact"><span class="label">Deadline</span>${esc(j.deadline)}</div><div class="fact"><span class="label">Source</span>${esc(j.source)}</div></div>
@@ -195,7 +209,8 @@ function render(){
  document.querySelectorAll(".card").forEach(el=>{
    const id=el.dataset.id;
    el.querySelector(".status").addEventListener("change",ev=>{get(id).status=ev.target.value;save()});
-   el.querySelector(".notes").addEventListener("input",ev=>{get(id).notes=ev.target.value;save()})
+   el.querySelector(".notes").addEventListener("input",ev=>{get(id).notes=ev.target.value;save()});
+   el.querySelector(".like-btn").addEventListener("click",()=>{get(id).liked=!get(id).liked;save();render()})
  });
  stats()
 }
@@ -204,7 +219,9 @@ function stats(){
  $("liveN").textContent=live.length;
  $("remoteN").textContent=live.filter(j=>/remote|virtual/i.test(j.arrangement)).length;
  $("highN").textContent=live.filter(j=>j.fit>=90).length;
- $("appliedN").textContent=Object.values(state).filter(x=>["Applied","Interview","Offer"].includes(x.status)).length
+ $("appliedN").textContent=Object.values(state).filter(x=>["Applied","Interview","Offer"].includes(x.status)).length;
+ const liked=JOBS.filter(j=>get(j.id).liked).length;
+ const n=$("likedNavCount"); if(n)n.textContent=liked
 }
 ["q","arrangement","category","eligibility","sort"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
 $("updatedMeta").textContent=`Updated ${fmtWhen(D.lastUpdated)}`;
