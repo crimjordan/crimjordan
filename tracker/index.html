@@ -68,6 +68,14 @@ input:focus,select:focus,textarea:focus{border-color:#8fb4d3;box-shadow:0 0 0 3p
 .btn.primary:hover{background:#21486d}
 textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px}
 
+.refresh-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 18px}
+.refresh-item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.refresh-item .rlabel{font-size:9px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:900}
+.refresh-item .rvalue{font-size:12px;font-weight:800;color:var(--navy);text-align:right}
+.refresh-item.new{background:var(--green-soft);border-color:#d9efe2}
+.refresh-item.new .rvalue{color:var(--green);font-size:16px}
+.newchip{background:var(--green-soft)!important;color:var(--green)!important;border-color:#d9efe2!important;font-weight:900!important}
+
 .empty{grid-column:1/-1;background:#fff;border:1px dashed #cfd5dc;border-radius:14px;padding:30px;text-align:center;color:var(--muted);font-size:13px}
 .footer{margin-top:30px;padding:18px 2px 0;border-top:1px solid var(--line);color:var(--muted);font-size:11px;line-height:1.65}
 .updated{font-weight:800;color:#4d5661}
@@ -77,6 +85,7 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
   .toolbar{position:static;grid-template-columns:1fr 1fr}
   .toolbar input{grid-column:1/-1}
   .grid{grid-template-columns:1fr}
+  .refresh-strip{grid-template-columns:1fr 1fr 1fr}
 }
 @media(max-width:560px){
   .wrap{padding:16px 12px 50px}
@@ -86,6 +95,7 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
   .toolbar input{grid-column:auto}
   .facts,.controls{grid-template-columns:1fr}
   .stats{gap:8px}
+  .refresh-strip{grid-template-columns:1fr}
   .stat{padding:13px}
   .stat b{font-size:24px}
 }
@@ -109,6 +119,12 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
   <div class="stat"><b id="appliedN">0</b><span>In progress</span></div>
 </section>
 
+<section class="refresh-strip" aria-label="Refresh status">
+  <div class="refresh-item"><span class="rlabel">Last searched</span><span class="rvalue" id="lastSearched">—</span></div>
+  <div class="refresh-item"><span class="rlabel">Last updated</span><span class="rvalue" id="lastUpdated">—</span></div>
+  <div class="refresh-item new"><span class="rlabel">New this refresh</span><span class="rvalue" id="newCount">0</span></div>
+</section>
+
 <section class="toolbar">
   <input id="q" type="search" placeholder="Search roles, organizations, topics…">
   <select id="arrangement"><option value="">Any arrangement</option></select>
@@ -129,7 +145,14 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
 </div>
 <script src="data.js"></script>
 <script>
-const D=window.TRACKER_DATA||{lastUpdated:"unknown",jobs:[]},JOBS=D.jobs;
+const D=window.TRACKER_DATA||{lastSearched:"unknown",lastUpdated:"unknown",newSinceLastRefresh:0,newJobIds:[],jobs:[]},JOBS=D.jobs;
+function fmtWhen(v){
+  if(!v||v==="unknown") return "Unknown";
+  const d=new Date(v);
+  if(Number.isNaN(d.getTime())) return v;
+  const hasTime=String(v).includes("T");
+  return new Intl.DateTimeFormat("en-US",hasTime?{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"}:{month:"short",day:"numeric",year:"numeric"}).format(d);
+}
 const STATUS=["Not started","Saved","Applying","Applied","Interview","Offer","Pass"];
 const key="summer2027InternshipTrackerState",state=JSON.parse(localStorage.getItem(key)||"{}");
 const $=id=>document.getElementById(id);
@@ -142,7 +165,7 @@ function card(j){
  const s=get(j.id);
  return `<article class="card" data-id="${esc(j.id)}">
  <div class="top"><div><div class="org">${esc(j.organization)}</div><div class="title">${esc(j.title)}</div></div><div class="score">${j.fit}<small>FIT</small></div></div>
- <div class="chips"><span class="chip ${remoteClass(j.arrangement)}">${esc(j.arrangement)}</span><span class="chip">${esc(j.category)}</span><span class="chip ${eligClass(j.eligibility)}">${esc(j.eligibility)}</span></div>
+ <div class="chips">${(D.newJobIds||[]).includes(j.id)?'<span class="chip newchip">NEW</span>':''}<span class="chip ${remoteClass(j.arrangement)}">${esc(j.arrangement)}</span><span class="chip">${esc(j.category)}</span><span class="chip ${eligClass(j.eligibility)}">${esc(j.eligibility)}</span></div>
  <div class="why">${esc(j.why)}</div>
  <div class="facts"><div class="fact"><span class="label">Location</span>${esc(j.location)}</div><div class="fact"><span class="label">Pay</span>${esc(j.pay)}</div><div class="fact"><span class="label">Deadline</span>${esc(j.deadline)}</div><div class="fact"><span class="label">Source</span>${esc(j.source)}</div></div>
  <div class="details">${esc(j.details)}</div>
@@ -184,8 +207,11 @@ function stats(){
  $("appliedN").textContent=Object.values(state).filter(x=>["Applied","Interview","Offer"].includes(x.status)).length
 }
 ["q","arrangement","category","eligibility","sort"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
-$("updatedMeta").textContent=`Updated ${D.lastUpdated}`;
-$("updatedFoot").textContent=`Data snapshot: ${D.lastUpdated}.`;
+$("updatedMeta").textContent=`Updated ${fmtWhen(D.lastUpdated)}`;
+$("updatedFoot").textContent=`Data snapshot: ${fmtWhen(D.lastUpdated)}.`;
+$("lastSearched").textContent=fmtWhen(D.lastSearched);
+$("lastUpdated").textContent=fmtWhen(D.lastUpdated);
+$("newCount").textContent=String(D.newSinceLastRefresh??0);
 render();
 </script>
 </body></html>
