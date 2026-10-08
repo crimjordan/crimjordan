@@ -476,11 +476,28 @@ window.TRACKER_DATA = {
       "url": "https://www.builtinchicago.org/job/summer-2027-intern-non-business-majors-ex-criminal-justice-international-affairs-liberal-arts/11477229",
       "source": "Federal Reserve Bank of Chicago / Built In Chicago",
       "future": false
+    },
+    {
+      "id": "nj-judiciary-policy-research-2027",
+      "title": "Summer 2027 Public Policy Research Internship",
+      "organization": "New Jersey Judiciary (New Jersey Courts)",
+      "category": "Justice & policing",
+      "arrangement": "Hybrid / some onsite required",
+      "location": "Trenton, NJ",
+      "pay": "Unpaid",
+      "deadline": "December 1, 2026",
+      "eligibility": "College students with at least 3 years completed; graduate students eligible",
+      "fit": 94,
+      "why": "Research on criminal justice reform, AI in courts, probation, access to justice, and data analysis.",
+      "details": "June 7–August 6, 2027. Research, literature reviews and policy briefs. Some onsite work required; remote work at manager discretion. Unofficial transcript required.",
+      "url": "https://www.governmentjobs.com/jobs/5429575-0/unpaid-college-intern-public-policy-research-track-summer-2027",
+      "source": "New Jersey Courts / GovernmentJobs",
+      "future": false
     }
   ],
   "lastSearched": "2026-10-08T09:11:00-05:00",
   "newSinceLastRefresh": 1,
   "newJobIds": [
-    "chicago-fed-nonbusiness-2027"
+    "nj-judiciary-policy-research-2027"
   ]
 };
