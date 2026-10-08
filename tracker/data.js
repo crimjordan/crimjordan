@@ -502,7 +502,7 @@ window.TRACKER_DATA = {
       "arrangement": "Hybrid / some onsite required",
       "location": "Trenton, NJ",
       "pay": "Unpaid",
-      "deadline": "Verify posting deadline",
+      "deadline": "December 1, 2026",
       "eligibility": "Likely match",
       "fit": 85,
       "why": "Court-based legal and policy research experience; exposure to appellate judging and judicial decision-making. Open to college students with at least three years completed, rather than requiring law-school enrollment.",
