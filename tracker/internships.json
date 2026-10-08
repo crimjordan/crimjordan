@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T16:40:00-05:00",
+  "lastUpdated": "2026-10-08T09:11:00-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -461,15 +461,7 @@
       "future": true
     }
   ],
-  "lastSearched": "2026-10-07T16:40:00-05:00",
-  "newSinceLastRefresh": 7,
-  "newJobIds": [
-    "meijer-risk-intelligence-2027",
-    "centene-analytics-grad-2027",
-    "humana-grad-analytics-2027",
-    "stop-comms-summer-2027",
-    "centene-health-admin-grad-2027",
-    "aclu-clrp-legal-2027",
-    "aclu-nsp-legal-2027"
-  ]
+  "lastSearched": "2026-10-08T09:11:00-05:00",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 }
