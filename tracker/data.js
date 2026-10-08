@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-08T09:11:00-05:00",
+  "lastUpdated": "2026-10-08T09:56:00-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -493,11 +493,28 @@ window.TRACKER_DATA = {
       "url": "https://www.governmentjobs.com/jobs/5429575-0/unpaid-college-intern-public-policy-research-track-summer-2027",
       "source": "New Jersey Courts / GovernmentJobs",
       "future": false
+    },
+    {
+      "id": "nj-courts-appellate-chambers-2027",
+      "title": "Unpaid College Intern — Appellate Division Chambers Track (Summer 2027)",
+      "organization": "New Jersey Courts",
+      "category": "Justice, courts & legal research",
+      "arrangement": "Hybrid / some onsite required",
+      "location": "Trenton, NJ",
+      "pay": "Unpaid",
+      "deadline": "Verify posting deadline",
+      "eligibility": "Likely match",
+      "fit": 85,
+      "why": "Court-based legal and policy research experience; exposure to appellate judging and judicial decision-making. Open to college students with at least three years completed, rather than requiring law-school enrollment.",
+      "details": "June 7–August 6, 2027. Conduct legal or related research in appellate judges' chambers; some onsite work required, remote work at judge/manager discretion. Unofficial transcript required.",
+      "url": "https://www.governmentjobs.com/jobs/5429487-0/unpaid-college-intern-appellate-division-chambers-track-summer-2027",
+      "source": "New Jersey Courts / GovernmentJobs",
+      "future": false
     }
   ],
-  "lastSearched": "2026-10-08T09:11:00-05:00",
+  "lastSearched": "2026-10-08T09:56:00-05:00",
   "newSinceLastRefresh": 1,
   "newJobIds": [
-    "nj-judiciary-policy-research-2027"
+    "nj-courts-appellate-chambers-2027"
   ]
 };
