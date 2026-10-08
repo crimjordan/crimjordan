@@ -459,9 +459,28 @@ window.TRACKER_DATA = {
       "url": "https://www.aclu.org/careers/summer-2027-legal-intern-national-security-project",
       "source": "ACLU National",
       "future": true
+    },
+    {
+      "id": "chicago-fed-nonbusiness-2027",
+      "title": "Summer 2027 Intern — Non-Business Majors (Criminal Justice, International Affairs, Liberal Arts)",
+      "organization": "Federal Reserve Bank of Chicago",
+      "category": "Government & public policy",
+      "arrangement": "In person",
+      "location": "Chicago, IL",
+      "pay": "$20–$33/hour",
+      "deadline": "October–November 2026",
+      "eligibility": "Graduate students eligible; graduation December 2027 or later",
+      "fit": 78,
+      "why": "Explicitly welcomes criminal justice majors; offers public-sector research, analytics, and organizational experience, although placements are not necessarily criminal justice focused.",
+      "details": "40 hours per week for 10–12 weeks beginning June 7 or June 14, 2027. Minimum 2.75 GPA; U.S. citizen or permanent resident; no sponsorship.",
+      "url": "https://www.builtinchicago.org/job/summer-2027-intern-non-business-majors-ex-criminal-justice-international-affairs-liberal-arts/11477229",
+      "source": "Federal Reserve Bank of Chicago / Built In Chicago",
+      "future": false
     }
   ],
   "lastSearched": "2026-10-08T09:11:00-05:00",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "newSinceLastRefresh": 1,
+  "newJobIds": [
+    "chicago-fed-nonbusiness-2027"
+  ]
 };
