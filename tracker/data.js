@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-14T08:48:00-05:00",
+  "lastUpdated": "2026-10-15T09:19:00-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -536,7 +536,7 @@ window.TRACKER_DATA = {
       "arrangement": "In person / office-based",
       "location": "Multiple US cities",
       "pay": "Paid; posting lists annualized $59,000–$98,000 range",
-      "deadline": "October 16, 2026 (third-party listing)",
+      "deadline": "October 16, 2026",
       "eligibility": "Graduate or undergraduate enrollment; graduation Fall 2027–Summer 2028",
       "fit": 91,
       "why": "Public-sector program evaluation, justice policy, organizational strategy, operational analysis.",
@@ -941,14 +941,14 @@ window.TRACKER_DATA = {
       "title": "Summer 2027 Population Health Analytics Graduate Intern",
       "organization": "Highmark Health",
       "category": "Research & data analytics",
-      "arrangement": "Remote (Pennsylvania work-at-home; state eligibility must be confirmed)",
-      "location": "Remote — Pennsylvania, US",
+      "arrangement": "Remote (eligible US states; confirm current list)",
+      "location": "Remote — eligible US states",
       "pay": "Not listed",
       "deadline": "Not specified",
       "eligibility": "Graduate degree in progress; related quantitative field preferred",
       "fit": 89,
       "why": "Claims and health data, trend analysis, performance measurement and predictive insights.",
-      "details": "Part-time graduate internship; remote listing specifies Pennsylvania; confirm out-of-state remote eligibility.",
+      "details": "Remote graduate analytics internship; employer limits work locations to approved states. Confirm Nebraska eligibility before applying.",
       "url": "https://careers.highmarkhealth.org/summer-2027-population-health-analytics-graduate-intern/job/P1-6922230-0",
       "source": "Highmark Health official",
       "future": false
@@ -1037,16 +1037,28 @@ window.TRACKER_DATA = {
       "url": "https://careers-nrdc.icims.com/jobs/6049/summer-2027-carbon-dioxide-removal-intern/job?in_iframe=1",
       "source": "NRDC official careers",
       "future": false
+    },
+    {
+      "id": "fpf-us-policy-2027",
+      "title": "Summer 2027 U.S. Policy Internship",
+      "organization": "Future of Privacy Forum",
+      "category": "Government & public policy",
+      "arrangement": "Hybrid / remote policy team",
+      "location": "Washington, DC; some staff remote in US",
+      "pay": "External funding or academic credit required for Summer 2027",
+      "deadline": "Not specified",
+      "eligibility": "Graduate students in policy-related fields, including master's students; privacy/data protection interest required",
+      "fit": 97,
+      "why": "Privacy and data protection policy, surveillance, emerging technology and civil liberties research.",
+      "details": "Summer 2027 opportunities require outside funding or academic credit; confirm availability and arrangement directly.",
+      "url": "https://fpf.org/us-policy-internships/",
+      "source": "Future of Privacy Forum official",
+      "future": false
     }
   ],
-  "lastSearched": "2026-10-14T08:48:00-05:00",
-  "newSinceLastRefresh": 6,
+  "lastSearched": "2026-10-15T09:19:00-05:00",
+  "newSinceLastRefresh": 1,
   "newJobIds": [
-    "highmark-population-health-analytics-2027",
-    "highmark-market-analytics-2027",
-    "nrdc-community-science-2027",
-    "nrdc-economics-research-2027",
-    "nrdc-climate-policy-2027",
-    "nrdc-carbon-removal-2027"
+    "fpf-us-policy-2027"
   ]
 };
