@@ -16,7 +16,8 @@ window.TRACKER_DATA = {
       "details": "Full-time for 10–12 weeks. The posting explicitly accepts graduate students in criminal justice, public policy, or related fields.",
       "url": "https://www.aclunorcal.org/jobs/summer-2027-criminal-law-immigration-project-internship/",
       "source": "ACLU NorCal",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "aclu-dst-2027",
@@ -33,7 +34,8 @@ window.TRACKER_DATA = {
       "details": "Full-time for 10–12 weeks. Open to graduate students in listed or related fields; confirm that criminology/criminal justice qualifies as a related field.",
       "url": "https://www.aclunorcal.org/jobs/summer-2027-democracy-speech-technology-internship/",
       "source": "ACLU NorCal",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "iacp-2027",
@@ -50,7 +52,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 term runs May 18–August 6. Program terms are 10–12 weeks with flexible schedules up to 40 hours/week.",
       "url": "https://www.theiacp.org/iacp-internship-program",
       "source": "IACP",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "cai-data-2027",
@@ -67,7 +70,8 @@ window.TRACKER_DATA = {
       "details": "Current listing is remote and full-time. Verify Summer 2027 timing and academic prerequisites in the application.",
       "url": "https://click.appcast.io/t/d_IXIb0tEucKhB6eExkN5snGrbmWcimn9GgT4beDHMDPt_UDR7n5hQM6Y2Rd-NhTq3Nfs3870u16FCBL1Bx9Gg==?sar_id=2alpiu5p&jpos=0",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "cai-program-2027",
@@ -84,7 +88,8 @@ window.TRACKER_DATA = {
       "details": "Current listing identifies remote worksite flexibility and full-time employment.",
       "url": "https://click.appcast.io/t/K2XczRlpYduNF2p9Df2vBzkPFgsIq4z3fp5xXdcFILXm4SuXoZYDkbugtafFEqN5K32MxoaJRYlVG-FOHAjV9A==?sar_id=2alpitzb&jpos=2",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "landolakes-govrel-2027",
@@ -101,7 +106,8 @@ window.TRACKER_DATA = {
       "details": "Runs January–July 2027, so it overlaps Summer 2027 rather than being a summer-only internship.",
       "url": "https://to.indeed.com/aabmndwcvxh6",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nhelp-mission-2027",
@@ -118,7 +124,8 @@ window.TRACKER_DATA = {
       "details": "The current posting specifically identifies Summer 2027 and states that the internship is fully remote.",
       "url": "https://to.indeed.com/aadrfhsrdxqs",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "conagra-analytics-2027",
@@ -135,7 +142,8 @@ window.TRACKER_DATA = {
       "details": "Adjacent rather than justice-specific, but useful for applied analytics and staying in Omaha.",
       "url": "https://click.appcast.io/t/Mug-NnZF0iaYOxL7aWoJXQXPJ8dp0SCN465f4x_AIfBzZZMt3ooXwEYs7U3XtH_kHPCOGLMaxs4qmXw_q4IP4w==?sar_id=2alpiuo1&jpos=6",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "emblem-econ-2027",
@@ -152,7 +160,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 remote internship. Subject matter is healthcare economics rather than criminal justice.",
       "url": "https://to.indeed.com/aa9vvk7mn6mr",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "amgen-grad-ds-2027",
@@ -169,7 +178,8 @@ window.TRACKER_DATA = {
       "details": "Adjacent rather than justice-specific. Confirm degree-field prerequisites before applying.",
       "url": "https://to.indeed.com/aaslgbwn7xmk",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "stryker-raqa-2027",
@@ -186,7 +196,8 @@ window.TRACKER_DATA = {
       "details": "A useful backup if you want remote analytical or policy experience outside criminal justice.",
       "url": "https://www.ziprecruiter.com/job-redirect?match_token=Cp8BChZFWUMwMU4zczNOQkpjanhfLThUTm93EiQwMWExMTNiMC1lNjNmLTc0YzMtYWE0Yy05ZDdjZGQxYWY5N2YaW0FBRWdMZE1LN1FzSF9Sd0N2X3FPZ29TcGlaN1lkREtNckE0RW9EWjR5M1BSUDJZQ0RUalFsZkxQUTY3WE8tLVpwcDhrTFJqeUxtRXVtbm45TGJ2Zk9GdmFFT3Mg5a0FEAEY5a0F&server_redirect=true&tsid=100000600",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nmpf-policy-2027",
@@ -203,7 +214,8 @@ window.TRACKER_DATA = {
       "details": "10–12 week summer internship focused on the intersection of industry and U.S. policy.",
       "url": "https://to.indeed.com/aatvqhk7p8ls",
       "source": "Current job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "brennan-justice-legal-2027",
@@ -220,7 +232,8 @@ window.TRACKER_DATA = {
       "details": "Kept separate so law-student-only roles do not crowd out opportunities you can pursue as a criminology graduate student.",
       "url": "https://www.brennancenter.org/about/employment/current-openings",
       "source": "Brennan Center",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "middlesex-prosecutor-grad-2027",
@@ -237,7 +250,8 @@ window.TRACKER_DATA = {
       "details": "Approximately 11 weeks from June through August 2027. Requires completion of the first graduate year and continued enrollment in an accredited graduate program.",
       "url": "https://host.careersingovernment.com/job/3056183/graduate-internship-program-middlesex-county-prosecutor-s-office-summer-2027/",
       "source": "Middlesex County / Careers in Government",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "ppg-buffalo-2027",
@@ -254,7 +268,8 @@ window.TRACKER_DATA = {
       "details": "Eight weeks from early June to late July 2027, 35 hours/week. The summer schedule is 3 days in person and 2 days remote, and the program is mainly geared toward master's and JD students.",
       "url": "https://ppgbuffalo.org/news-and-events/news/article:10-02-2026-12-00am-ppg-is-hiring-a-paid-intern-for-summer-2027-applications-open/",
       "source": "Partnership for the Public Good",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "progressive-data-2027",
@@ -271,7 +286,8 @@ window.TRACKER_DATA = {
       "details": "Runs May–August 2027. Applicants must be pursuing a bachelor's degree or higher in a quantitative field; work may involve pricing, actuarial analytics, or the Analyst Development Program and tools such as Python, R, SQL, Excel, Tableau, or SAS.",
       "url": "https://earlycareers.progressive.com/jobs/18156166-data-analyst-internship-summer-2027/",
       "source": "Progressive",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "veeam-data-2027",
@@ -288,7 +304,8 @@ window.TRACKER_DATA = {
       "details": "10-week program from June through August 2027. Graduate students are eligible; preferred fields include statistics, data analytics, business administration, marketing, or a related field.",
       "url": "https://careers.veeam.com/job/georgia/data-analytics-and-programs-intern-summer-2027/22681/100489030400",
       "source": "Veeam",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "principal-data-2027",
@@ -305,7 +322,8 @@ window.TRACKER_DATA = {
       "details": "Offers in-office, hybrid, and remote arrangements; remote eligibility generally applies when residing more than 30 miles from the listed offices. The program also provides a $4,000 internship stipend.",
       "url": "https://careers.principal.com/careers-home/jobs/52574",
       "source": "Principal Financial Group",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "npap-law-clerk-2027",
@@ -322,7 +340,8 @@ window.TRACKER_DATA = {
       "details": "Runs June 7–August 6, 2027. Open to 2L students; the position will likely be remote, with in-person options available.",
       "url": "https://nationalpoliceaccountability.org/careers/",
       "source": "National Police Accountability Project",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "aclu-spt-legal-2027",
@@ -339,7 +358,8 @@ window.TRACKER_DATA = {
       "details": "Full-time for 10 consecutive weeks, starting May 24 or June 7. Applicants must be matriculated law students who have completed their first year before the internship begins, or be in an LLM program.",
       "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8843280002",
       "source": "ACLU National",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "meijer-risk-intelligence-2027",
@@ -356,7 +376,8 @@ window.TRACKER_DATA = {
       "details": "Full-time 11-week Summer 2027 internship. Work includes organized retail crime, fraud and internal investigations, asset-protection technology evaluation, surveillance-technology privacy/governance, and analytics using tools such as Python, R, or SQL. Progress toward a bachelor's or master's degree in an analytics-related field is accepted.",
       "url": "https://meijer.wd5.myworkdayjobs.com/en-US/Meijer/job/Grand-Rapids-MI/Risk-Intelligence-Intern--Summer-2027_R000700477",
       "source": "Meijer",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "centene-analytics-grad-2027",
@@ -373,7 +394,8 @@ window.TRACKER_DATA = {
       "details": "Full-time Summer 2027 graduate internship. Requires a completed bachelor's degree and current enrollment in a graduate program related to the hiring department; listed fields include data science, analytics, statistics, applied math, information systems, business analytics, biostatistics, public-health analytics, health informatics, or a related graduate field.",
       "url": "https://jobs.centene.com/us/en/jobs/1660479/analytics-summer-2027-intern-graduate/",
       "source": "Centene",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "humana-grad-analytics-2027",
@@ -390,7 +412,8 @@ window.TRACKER_DATA = {
       "details": "12-week internship from May 24–August 13, 2027, generally 3–4 office days per week. Applicants must be current full-time graduate students in a quantitative or related field; projects can include analytics, research/data science, and policy governance.",
       "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Graduate-Analytics-Internship---Summer-2027_R-429772",
       "source": "Humana",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "stop-comms-summer-2027",
@@ -407,7 +430,8 @@ window.TRACKER_DATA = {
       "details": "S.T.O.P. is accepting Spring and Summer 2027 interns. Undergraduate and graduate students or recent graduates may apply. The role emphasizes research, writing, breaking-news monitoring, communications, and civil-rights/privacy issues, and internships can operate 100% remotely.",
       "url": "https://www.stopspying.org/internships",
       "source": "S.T.O.P.",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "centene-health-admin-grad-2027",
@@ -424,7 +448,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 graduate internship for students enrolled in a graduate program related to the hiring department. Projects can span public health, population health, health policy, quality improvement, care management, operations, strategy, and performance.",
       "url": "https://jobs.centene.com/us/en/jobs/1660478/healthcare-administration-summer-2027-intern-graduate/",
       "source": "Centene",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "aclu-clrp-legal-2027",
@@ -441,7 +466,8 @@ window.TRACKER_DATA = {
       "details": "Full-time 35 hours/week for 10 consecutive weeks, beginning May 24 or June 7, 2027. Kept on the future-JD watchlist because it is a legal internship requiring law-school enrollment.",
       "url": "https://www.aclu.org/careers/summer-2027-legal-intern-criminal-law-reform-project",
       "source": "ACLU National",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "aclu-nsp-legal-2027",
@@ -458,7 +484,8 @@ window.TRACKER_DATA = {
       "details": "Full-time 35 hours/week for 10 consecutive weeks. Applicants must be law students with at least one year completed before the internship. Kept separate as a future-JD opportunity.",
       "url": "https://www.aclu.org/careers/summer-2027-legal-intern-national-security-project",
       "source": "ACLU National",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "chicago-fed-nonbusiness-2027",
@@ -475,7 +502,8 @@ window.TRACKER_DATA = {
       "details": "40 hours per week for 10–12 weeks beginning June 7 or June 14, 2027. Minimum 2.75 GPA; U.S. citizen or permanent resident; no sponsorship.",
       "url": "https://www.builtinchicago.org/job/summer-2027-intern-non-business-majors-ex-criminal-justice-international-affairs-liberal-arts/11477229",
       "source": "Federal Reserve Bank of Chicago / Built In Chicago",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nj-judiciary-policy-research-2027",
@@ -492,7 +520,8 @@ window.TRACKER_DATA = {
       "details": "June 7–August 6, 2027. Research, literature reviews and policy briefs. Some onsite work required; remote work at manager discretion. Unofficial transcript required.",
       "url": "https://www.governmentjobs.com/jobs/5429575-0/unpaid-college-intern-public-policy-research-track-summer-2027",
       "source": "New Jersey Courts / GovernmentJobs",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "ma-eopss-2027",
@@ -509,7 +538,8 @@ window.TRACKER_DATA = {
       "details": "June 7–August 27, 2027; full or part time; agency placement varies.",
       "url": "https://www.mass.gov/how-to/apply-to-the-executive-office-of-public-safety-and-security-internship-program",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "robinhood-fraud-2027",
@@ -526,7 +556,8 @@ window.TRACKER_DATA = {
       "details": "Investigate alerts, identify emerging fraud trends and communicate findings.",
       "url": "https://job-boards.greenhouse.io/robinhood/jobs/8198241",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "guidehouse-slg-2027",
@@ -543,7 +574,8 @@ window.TRACKER_DATA = {
       "details": "10 weeks June 7–August 13, 2027; government consulting projects.",
       "url": "https://guidehouse.searchgreatcareers.com/job/boston/intern-state-and-local-government-campus-2027/25181/100717898208",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "robinhood-peoplex-2027",
@@ -560,7 +592,8 @@ window.TRACKER_DATA = {
       "details": "Workforce analytics and survey methodology; quantitative background required.",
       "url": "https://job-boards.greenhouse.io/robinhood/jobs/8198255",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "gilead-govaffairs-2027",
@@ -577,7 +610,8 @@ window.TRACKER_DATA = {
       "details": "10–12 weeks May–August; graduate students eligible.",
       "url": "https://gilead.yello.co/jobs/2n9OJ4JxHt9iB1h3PTkoaQ?locale=en",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "energy-transfer-govaffairs-2027",
@@ -594,7 +628,8 @@ window.TRACKER_DATA = {
       "details": "12-week internship beginning May 2027.",
       "url": "https://energytransfer.referrals.selectminds.com/jobs/intern-government-affairs-19230",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "guidehouse-federal-2027",
@@ -611,7 +646,8 @@ window.TRACKER_DATA = {
       "details": "10-week Summer 2027 internship; work with federal civilian clients.",
       "url": "https://guidehouse.searchgreatcareers.com/job/arlington/intern-federal-civilian-agencies-campus-2027/25181/101300810560",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "pilot-govaffairs-2027",
@@ -628,7 +664,8 @@ window.TRACKER_DATA = {
       "details": "June 7–August 13, 2027; full-time government affairs placement.",
       "url": "https://careers.pilotcompany.com/program-intern-government-affairs/job/6B3863B307498DC1687F6F0E172411CA",
       "source": "Official employer posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "icf-data-analytics-2027",
@@ -645,7 +682,8 @@ window.TRACKER_DATA = {
       "details": "Full-time 10 weeks starting June 2027; hybrid Reston or remote US.",
       "url": "https://careers.rhsmith.umd.edu/jobs/icf-international-2027-summer-intern-data-analytics-reston-va-or-remote/",
       "source": "ICF / University of Maryland",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "icf-data-scientist-2027",
@@ -662,7 +700,8 @@ window.TRACKER_DATA = {
       "details": "10-week June–August 2027 internship supporting utility programs; quantitative degree requirement may be restrictive.",
       "url": "https://capd.mit.edu/jobs/icf-2027-summer-intern-data-scientist-reston-va-denver-co-remote/",
       "source": "ICF / MIT Careers",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "icf-research-analysis-2027",
@@ -679,7 +718,8 @@ window.TRACKER_DATA = {
       "details": "10 weeks beginning June 2027; utility and energy programs focus.",
       "url": "https://jobs.ttpb.com/jobs/757020982-2027-summer-intern-research-analysis-reston-va-new-york-ny-%7C-reston-va-usa",
       "source": "ICF / job listing",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "icf-program-operations-2027",
@@ -696,7 +736,8 @@ window.TRACKER_DATA = {
       "details": "10-week internship beginning June 2027; energy efficiency program implementation.",
       "url": "https://careers.icf.com/us/en/job/R2603391",
       "source": "ICF official careers",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "bpc-summer-2027",
@@ -713,7 +754,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 cohort announced; applications not yet open. In office Tuesday–Thursday, remote Monday–Friday otherwise.",
       "url": "https://bipartisanpolicy.org/about-us/careers/internships/",
       "source": "Bipartisan Policy Center official",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "pcg-internship-2027",
@@ -730,7 +772,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 remote public-sector consulting internship (JR102230). Undergraduate or graduate students may apply; confirm team-specific assignments.",
       "url": "https://career.clemson.edu/jobs/public-consulting-group-pcg-internship-summer-2027/",
       "source": "Public Consulting Group official",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "coinbase-policy-2027",
@@ -747,7 +790,8 @@ window.TRACKER_DATA = {
       "details": "12-week Summer 2027 internship; public policy and financial regulation.",
       "url": "https://www.linkedin.com/jobs/view/policy-intern-at-coinbase-4473929789",
       "source": "Coinbase listing on LinkedIn",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "caresource-summer-program-2027",
@@ -764,7 +808,8 @@ window.TRACKER_DATA = {
       "details": "12-week Summer 2027 general internship application; individual placements not yet announced.",
       "url": "https://careers.caresource.com/job/united-states/2027-summer-internship-program/51136/100600532320",
       "source": "CareSource official careers",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "aclu-npp-legal-2027",
@@ -781,7 +826,8 @@ window.TRACKER_DATA = {
       "details": "Future JD watchlist; requires law school enrollment.",
       "url": "https://www.aclu.org/careers/internships",
       "source": "ACLU official internship listings",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "aclu-acdi-legal-2027",
@@ -798,7 +844,8 @@ window.TRACKER_DATA = {
       "details": "10 weeks, 35 hours/week, begins May 24 or June 7, 2027. Future JD watchlist.",
       "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8843132002",
       "source": "ACLU Greenhouse official",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "aclu-rjp-legal-2027",
@@ -815,7 +862,8 @@ window.TRACKER_DATA = {
       "details": "Future JD watchlist; requires law school enrollment.",
       "url": "https://www.aclu.org/careers/internships",
       "source": "ACLU official internship listings",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "cpcs-racial-justice-2027",
@@ -832,7 +880,8 @@ window.TRACKER_DATA = {
       "details": "At least eight weeks full time; work with racial justice, training and equity teams.",
       "url": "https://careers-publiccounsel.icims.com/jobs/3222/internship-opportunities---summer-2027---racial-justice-internship-program/job",
       "source": "CPCS official careers",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "cpcs-public-defender-2027",
@@ -849,7 +898,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 statewide placement; request preferred offices.",
       "url": "https://www.internships.com/posting/internship-opportunities-summer-2027-public-defender-division-statewide-committee-for-public-counsel-475656053",
       "source": "CPCS posting mirrored by Internships.com",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "cpcs-youth-advocacy-2027",
@@ -866,7 +916,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027; transportation and reliable computer/internet required.",
       "url": "https://careers-publiccounsel.icims.com/jobs/3223/internship-opportunities---summer-2027---youth-advocacy-division---statewide/job",
       "source": "CPCS official careers",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "cna-research-2027",
@@ -883,7 +934,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 national security research internship; Req #859.",
       "url": "https://career.du.edu/jobs/center-for-naval-analyses-cna-research-intern-summer-2027/",
       "source": "CNA posting via University of Denver",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "immuta-product-research-2027",
@@ -900,7 +952,8 @@ window.TRACKER_DATA = {
       "details": "Research-oriented product team; Python, SQL, statistical methods and machine learning.",
       "url": "https://jobs.lever.co/immuta/18aabf0a-8b27-4b7d-8a96-6995a7f8847b",
       "source": "Immuta official Lever posting",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "aldf-criminal-justice-2027",
@@ -917,7 +970,8 @@ window.TRACKER_DATA = {
       "details": "35 hours/week for 10 weeks beginning June 2027; future JD watchlist.",
       "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4479329",
       "source": "Animal Legal Defense Fund official hiring",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "aclu-immigrants-rights-legal-2027",
@@ -934,7 +988,8 @@ window.TRACKER_DATA = {
       "details": "Full-time 35 hours/week for 10 weeks starting May 24 or June 7, 2027; future JD watchlist.",
       "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8843576002",
       "source": "ACLU official Greenhouse",
-      "future": true
+      "future": true,
+      "dateAdded": null
     },
     {
       "id": "highmark-population-health-analytics-2027",
@@ -951,7 +1006,8 @@ window.TRACKER_DATA = {
       "details": "Employer posting specifies Pennsylvania work-at-home; eligibility outside Pennsylvania unconfirmed.",
       "url": "https://careers.highmarkhealth.org/summer-2027-population-health-analytics-graduate-intern/job/P1-6922230-0",
       "source": "Highmark Health official",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "highmark-market-analytics-2027",
@@ -968,7 +1024,8 @@ window.TRACKER_DATA = {
       "details": "Part-time graduate internship in market analytics and healthcare business research.",
       "url": "https://careers.highmarkhealth.org/summer-2027-market-analytics-graduate-intern/job/P1-6817068-0",
       "source": "Highmark Health official",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nrdc-community-science-2027",
@@ -985,7 +1042,8 @@ window.TRACKER_DATA = {
       "details": "35 hours/week for 10 weeks, Summer Session 2 or 3; no relocation assistance.",
       "url": "https://www.builtinnyc.com/job/summer-2027-community-science-partnerships-intern/11667601",
       "source": "NRDC listing via Built In NYC",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nrdc-economics-research-2027",
@@ -1002,7 +1060,8 @@ window.TRACKER_DATA = {
       "details": "10-week Summer 2027 internship in NRDC Science Office.",
       "url": "https://builtin.com/job/summer-2027-economics-research-intern/11667605",
       "source": "NRDC listing via Built In",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nrdc-climate-policy-2027",
@@ -1019,7 +1078,8 @@ window.TRACKER_DATA = {
       "details": "Municipal policy implementation, survey design and program evaluation; three days/week onsite.",
       "url": "https://careers-nrdc.icims.com/jobs/6070/summer-2027-climate-policy-implementation-intern/job?in_iframe=1",
       "source": "NRDC iCIMS feed via Changemaker",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "nrdc-carbon-removal-2027",
@@ -1036,7 +1096,8 @@ window.TRACKER_DATA = {
       "details": "35 hours/week for 10 weeks; no relocation assistance.",
       "url": "https://careers-nrdc.icims.com/jobs/6049/summer-2027-carbon-dioxide-removal-intern/job?in_iframe=1",
       "source": "NRDC official careers",
-      "future": false
+      "future": false,
+      "dateAdded": null
     },
     {
       "id": "fpf-us-policy-2027",
@@ -1053,7 +1114,8 @@ window.TRACKER_DATA = {
       "details": "Summer 2027 applications will open soon. Graduate students eligible; outside funding or academic credit required. Typical summer schedule 10 weeks; DC hybrid or fully remote US.",
       "url": "https://fpf.org/us-policy-internships/",
       "source": "Future of Privacy Forum official",
-      "future": false
+      "future": false,
+      "dateAdded": "2026-10-15"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1070,7 +1132,8 @@ window.TRACKER_DATA = {
       "fit": 91,
       "why": "State and municipal policy research on climate mobility, community relocation and equity.",
       "details": "10 weeks, 35 hours/week; summer sessions May 24 or June 7, 2027.",
-      "url": "https://climatebase.org/job/77739781/summer-2027-climate-mobility-intern"
+      "url": "https://climatebase.org/job/77739781/summer-2027-climate-mobility-intern",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1087,7 +1150,8 @@ window.TRACKER_DATA = {
       "fit": 90,
       "why": "Quantitative analysis of air quality and health impacts, literature reviews, policy research.",
       "details": "10 weeks, 35 hours/week; summer sessions June 7 or June 21, 2027.",
-      "url": "https://climatebase.org/job/77739797/summer-2027-climate--health-intern"
+      "url": "https://climatebase.org/job/77739797/summer-2027-climate--health-intern",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1104,7 +1168,8 @@ window.TRACKER_DATA = {
       "fit": 92,
       "why": "Literature synthesis, research knowledge systems and responsible AI tools.",
       "details": "10 weeks, 35 hours/week; summer sessions May 24 or June 7, 2027.",
-      "url": "https://climatebase.org/job/77739779/summer-2027-knowledge-management-intern"
+      "url": "https://climatebase.org/job/77739779/summer-2027-knowledge-management-intern",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1121,7 +1186,8 @@ window.TRACKER_DATA = {
       "fit": 86,
       "why": "International clean-energy policy research, data analysis, policy memos and briefs.",
       "details": "10 weeks, 35 hours/week; Summer 2027.",
-      "url": "https://climatebase.org/job/77739791/summer-2027-clean-energy-research-intern"
+      "url": "https://climatebase.org/job/77739791/summer-2027-clean-energy-research-intern",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1138,7 +1204,8 @@ window.TRACKER_DATA = {
       "fit": 89,
       "why": "State insurance policy research, resilience, risk, affordability and climate adaptation.",
       "details": "10 weeks, 35 hours/week; Summer 2027.",
-      "url": "https://careers-nrdc.icims.com/jobs/6053/summer-2027-insurance-policy-research-intern/job?in_iframe=1"
+      "url": "https://careers-nrdc.icims.com/jobs/6053/summer-2027-insurance-policy-research-intern/job?in_iframe=1",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1155,7 +1222,8 @@ window.TRACKER_DATA = {
       "fit": 82,
       "why": "Institutional policy case studies, international finance advocacy, policy briefs and research.",
       "details": "10 weeks, 35 hours/week; Summer 2027; familiarity with finance preferred.",
-      "url": "https://climatebase.org/job/77739800/summer-2027-green-finance-advocacy-intern"
+      "url": "https://climatebase.org/job/77739800/summer-2027-green-finance-advocacy-intern",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1172,7 +1240,8 @@ window.TRACKER_DATA = {
       "fit": 90,
       "why": "State and local policy analysis, climate risk scorecards and program evaluation.",
       "details": "10 weeks, 35 hours/week; Summer 2027.",
-      "url": "https://changemakerhq.org/jobs/summer-2027-adaptation-advocacy-intern-nrdc-washington-29243"
+      "url": "https://changemakerhq.org/jobs/summer-2027-adaptation-advocacy-intern-nrdc-washington-29243",
+      "dateAdded": "2026-10-17"
     },
     {
       "organization": "Natural Resources Defense Council",
@@ -1189,7 +1258,8 @@ window.TRACKER_DATA = {
       "fit": 84,
       "why": "Market research, business outreach, quantitative dashboards and clean-energy policy.",
       "details": "10 weeks, 35 hours/week; Summer 2027.",
-      "url": "https://careers-nrdc.icims.com/jobs/6072/summer-2027-clean-energy-business-intern/job?in_iframe=1"
+      "url": "https://careers-nrdc.icims.com/jobs/6072/summer-2027-clean-energy-business-intern/job?in_iframe=1",
+      "dateAdded": "2026-10-17"
     }
   ],
   "lastSearched": "2026-10-17T09:03:00-05:00",
