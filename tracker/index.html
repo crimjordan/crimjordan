@@ -34,7 +34,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-se
 .stat b{display:block;font-size:28px;line-height:1;letter-spacing:-.03em;margin-bottom:7px;color:var(--navy)}
 .stat span{font-size:10px;color:var(--muted);font-weight:850;text-transform:uppercase;letter-spacing:.09em}
 
-.toolbar{position:sticky;top:10px;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:15px;padding:10px;box-shadow:0 8px 28px rgba(16,24,40,.08);display:grid;grid-template-columns:1.5fr repeat(5,1fr);gap:8px}
+.toolbar{position:sticky;top:10px;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:15px;padding:10px;box-shadow:0 8px 28px rgba(16,24,40,.08);display:grid;grid-template-columns:1.5fr repeat(6,1fr);gap:8px}
 input,select,textarea{font:inherit;color:var(--ink);border:1px solid #dfe3e8;background:#fff;border-radius:9px;padding:10px 11px;width:100%;outline:none;transition:border-color .15s,box-shadow .15s}
 input:focus,select:focus,textarea:focus{border-color:#8fb4d3;box-shadow:0 0 0 3px rgba(41,95,145,.10)}
 #q{background:#fafbfc}
@@ -145,7 +145,8 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
   <select id="category"><option value="">Any category</option></select>
   <select id="schedule"><option value="">Any schedule</option><option value="Part-time available">Part-time available</option><option value="Full-time">Full-time</option><option value="Flexible hours">Flexible hours</option><option value="Not specified">Not specified</option></select>
   <select id="eligibility"><option value="">Any eligibility</option></select>
-  <select id="sort"><option value="fit">Best fit</option><option value="remote">Remote first</option><option value="org">Organization A–Z</option></select>
+  <select id="added"><option value="">Any date added</option><option value="7">Added in last 7 days</option><option value="30">Added in last 30 days</option><option value="known">All dated listings</option><option value="unknown">Date unknown (legacy)</option></select>
+  <select id="sort"><option value="fit">Best fit</option><option value="newest">Newest added first</option><option value="oldest">Oldest added first</option><option value="remote">Remote first</option><option value="org">Organization A–Z</option></select>
 </section>
 
 <div class="section-head"><div><h2>Current matches</h2><p>Shortlisted opportunities that fit your interests and experience.</p></div><span class="count" id="shown"></span></div>
@@ -158,7 +159,7 @@ textarea.notes{min-height:56px;resize:vertical;background:#fbfcfd;font-size:12px
   Fit scores prioritize relevance to your stated interests and work arrangement; they are not employer assessments. Always verify eligibility, deadlines, compensation, and availability at the original posting before applying. <span class="updated" id="updatedFoot"></span>
 </div>
 </div>
-<script src="data.js?v=20261017-0903"></script>
+<script src="data.js?v=20261017-datefilter"></script>
 <script>
 const D=window.TRACKER_DATA||{lastSearched:"unknown",lastUpdated:"unknown",newSinceLastRefresh:0,newJobIds:[],jobs:[]},JOBS=D.jobs;
 function fmtWhen(v){
@@ -183,13 +184,14 @@ function scheduleOf(j){
  if(/full.time|full time|35 hours\/week|40 hours per week|35 hours per week/.test(d))return "Full-time";
  return "Not specified";
 }
+function addedLabel(j){return j.dateAdded?fmtWhen(j.dateAdded+"T12:00:00"):"Not recorded (older listing)"}
 function card(j){
  const s=get(j.id);
  return `<article class="card" data-id="${esc(j.id)}">
  <div class="top"><div><div class="org">${esc(j.organization)}</div><div class="title">${esc(j.title)}</div></div><div class="top-actions"><button class="like-btn ${s.liked?'liked':''}" type="button" aria-pressed="${s.liked?'true':'false'}"><span class="heart">♥</span>${s.liked?'Liked':'Like'}</button><div class="score">${j.fit}<small>FIT</small></div></div></div>
- <div class="chips">${(D.newJobIds||[]).includes(j.id)?'<span class="chip newchip">NEW</span>':''}<span class="chip ${remoteClass(j.arrangement)}">${esc(j.arrangement)}</span><span class="chip">${esc(j.category)}</span><span class="chip">${esc(scheduleOf(j))}</span><span class="chip ${eligClass(j.eligibility)}">${esc(j.eligibility)}</span></div>
+ <div class="chips">${j.dateAdded?`<span class="chip">Added ${esc(addedLabel(j))}</span>`:""}${(D.newJobIds||[]).includes(j.id)?'<span class="chip newchip">NEW</span>':''}<span class="chip ${remoteClass(j.arrangement)}">${esc(j.arrangement)}</span><span class="chip">${esc(j.category)}</span><span class="chip">${esc(scheduleOf(j))}</span><span class="chip ${eligClass(j.eligibility)}">${esc(j.eligibility)}</span></div>
  <div class="why">${esc(j.why)}</div>
- <div class="facts"><div class="fact"><span class="label">Location</span>${esc(j.location)}</div><div class="fact"><span class="label">Pay</span>${esc(j.pay)}</div><div class="fact"><span class="label">Deadline</span>${esc(j.deadline)}</div><div class="fact"><span class="label">Source</span>${esc(j.source)}</div></div>
+ <div class="facts"><div class="fact"><span class="label">Location</span>${esc(j.location)}</div><div class="fact"><span class="label">Pay</span>${esc(j.pay)}</div><div class="fact"><span class="label">Deadline</span>${esc(j.deadline)}</div><div class="fact"><span class="label">Source</span>${esc(j.source)}</div><div class="fact"><span class="label">Date added</span>${esc(addedLabel(j))}</div></div>
  <div class="details">${esc(j.details)}</div>
  <div class="controls"><select class="status">${STATUS.map(x=>`<option ${x===s.status?"selected":""}>${x}</option>`).join("")}</select><a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open posting ↗</a></div>
  <textarea class="notes" placeholder="Your notes: materials, contact, interview date…">${esc(s.notes)}</textarea>
@@ -200,13 +202,14 @@ unique("arrangement").forEach(v=>$("arrangement").insertAdjacentHTML("beforeend"
 unique("category").forEach(v=>$("category").insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
 unique("eligibility").forEach(v=>$("eligibility").insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
 function filtered(){
- const q=$("q").value.trim().toLowerCase(),a=$("arrangement").value,c=$("category").value,e=$("eligibility").value,sch=$("schedule").value;
+ const q=$("q").value.trim().toLowerCase(),a=$("arrangement").value,c=$("category").value,e=$("eligibility").value,sch=$("schedule").value,added=$("added").value;
+ const today=new Date(D.lastSearched||D.lastUpdated||Date.now());today.setHours(0,0,0,0);
  let x=JOBS.filter(j=>{
    const hay=[j.title,j.organization,j.category,j.arrangement,j.location,j.why,j.details].join(" ").toLowerCase();
-   return(!q||hay.includes(q))&&(!a||j.arrangement===a)&&(!c||j.category===c)&&(!e||j.eligibility===e)&&(!sch||scheduleOf(j)===sch)
+   return(!q||hay.includes(q))&&(!a||j.arrangement===a)&&(!c||j.category===c)&&(!e||j.eligibility===e)&&(!sch||scheduleOf(j)===sch)&&(!added||(added==="known"?!!j.dateAdded:added==="unknown"?!j.dateAdded:!!j.dateAdded&&((today-new Date(j.dateAdded+"T00:00:00"))/86400000)<Number(added)&&((today-new Date(j.dateAdded+"T00:00:00"))/86400000)>=0))
  });
  const s=$("sort").value;
- x.sort((m,n)=>s==="org"?m.organization.localeCompare(n.organization):s==="remote"?((/remote|virtual/i.test(n.arrangement)?1:0)-(/remote|virtual/i.test(m.arrangement)?1:0)||n.fit-m.fit):n.fit-m.fit);
+ x.sort((m,n)=>s==="newest"?(n.dateAdded||"").localeCompare(m.dateAdded||"")||n.fit-m.fit:s==="oldest"?(m.dateAdded||"9999").localeCompare(n.dateAdded||"9999")||n.fit-m.fit:s==="org"?m.organization.localeCompare(n.organization):s==="remote"?((/remote|virtual/i.test(n.arrangement)?1:0)-(/remote|virtual/i.test(m.arrangement)?1:0)||n.fit-m.fit):n.fit-m.fit);
  return x
 }
 function render(){
@@ -231,7 +234,7 @@ function stats(){
  const liked=JOBS.filter(j=>get(j.id).liked).length;
  const n=$("likedNavCount"); if(n)n.textContent=liked
 }
-["q","arrangement","category","schedule","eligibility","sort"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
+["q","arrangement","category","schedule","eligibility","added","sort"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
 $("updatedMeta").textContent=`Updated ${fmtWhen(D.lastUpdated)}`;
 $("updatedFoot").textContent=`Data snapshot: ${fmtWhen(D.lastUpdated)}.`;
 $("lastSearched").textContent=fmtWhen(D.lastSearched);
