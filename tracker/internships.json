@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T08:07:58-05:00",
+  "lastUpdated": "2026-10-22T08:30:00-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1440,17 +1440,29 @@
       "source": "ACLU official Greenhouse posting",
       "future": true,
       "dateAdded": "2026-10-22"
+    },
+    {
+      "id": "american-economic-liberties-research-2027",
+      "title": "Summer 2027 Research Intern",
+      "organization": "American Economic Liberties Project",
+      "category": "Public policy & research",
+      "arrangement": "Remote",
+      "location": "United States",
+      "pay": "$20–$25/hour",
+      "deadline": "Rolling",
+      "eligibility": "Graduate students eligible",
+      "fit": 88,
+      "why": "Policy research, public-facing trackers, regulatory analysis, and drafting research products.",
+      "details": "Part-time up to 16 hours/week; June 9–August 20, 2027. Current graduate students eligible.",
+      "url": "https://www.economicliberties.us/research-internship/",
+      "source": "Official organization posting",
+      "future": false,
+      "dateAdded": "2026-10-22"
     }
   ],
-  "lastSearched": "2026-10-22T08:07:58-05:00",
-  "newSinceLastRefresh": 7,
+  "lastSearched": "2026-10-22T08:30:00-05:00",
+  "newSinceLastRefresh": 1,
   "newJobIds": [
-    "highmark-evaluation-analytics-grad-2027",
-    "amplify-data-analytics-2027",
-    "amplify-ai-scientist-2027",
-    "amplify-product-management-2027",
-    "hii-corporate-government-affairs-2027",
-    "highmark-data-science-rd-grad-2027",
-    "aclu-human-rights-legal-2027"
+    "american-economic-liberties-research-2027"
   ]
 }
