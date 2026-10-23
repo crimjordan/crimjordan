@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-22T08:30:00-05:00",
+  "lastUpdated": "2026-10-23T13:14:02.169Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1280,24 +1280,6 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-10-19"
     },
     {
-      "id": "itdp-mel-2027",
-      "title": "Monitoring, Evaluation & Learning Intern — Spring/Summer 2027",
-      "organization": "Institute for Transportation and Development Policy (ITDP)",
-      "category": "Research & data analytics",
-      "arrangement": "Fully remote US or hybrid Washington, DC",
-      "location": "Remote within US / Washington, DC",
-      "pay": "$400/week for 20 hours (~$20/hour), prorated",
-      "deadline": "October 22, 2026",
-      "eligibility": "Enrolled students, including graduate students; enrollment required spring and summer 2027",
-      "fit": 97,
-      "why": "Excellent match for program evaluation, R/Python, GIS, OpenStreetMap, data quality, visualization and impact measurement.",
-      "details": "January–August 2027 two-term internship; up to 20 hours/week spring and 32 hours/week summer. Must be enrolled in both terms.",
-      "url": "https://careers.wgu.edu/jobs/institute-for-transportation-and-development-policy-monitoring-evaluation-learning-intern-spring-summer-2027/",
-      "source": "ITDP posting via WGU Career Center",
-      "future": false,
-      "dateAdded": "2026-10-21"
-    },
-    {
       "id": "fbi-honors-internship-2027",
       "title": "2027 Honors Internship Program",
       "organization": "Federal Bureau of Investigation",
@@ -1327,9 +1309,9 @@ window.TRACKER_DATA = {
       "eligibility": "Graduate enrollment required; legal studies or related field preferred",
       "fit": 96,
       "why": "Program evaluation, applied statistics, research design, R/SAS analysis and evidence-based assessment of healthcare programs.",
-      "details": "Summer 2027; remote part-time. Full-time or part-time graduate enrollment accepted. Employer feed requisition J288013. Verify state eligibility on application.",
-      "url": "https://jigup.co/jobs/summer-2027-evaluation-analytics-graduate-intern-highmark-health-washington-dist-82d7e5e9",
-      "source": "Highmark Health employer feed (J288013)",
+      "details": "Summer 2027; remote part-time. Full-time or part-time graduate enrollment accepted. Research design, program evaluation, statistical analyses using R or SAS. Verify eligible remote work states at application.",
+      "url": "https://careers.highmarkhealth.org/summer-2027-evaluation-analytics-graduate-intern/job/P1-7076854-0",
+      "source": "Highmark Health official careers (J288013)",
       "future": false,
       "dateAdded": "2026-10-22"
     },
@@ -1458,11 +1440,86 @@ window.TRACKER_DATA = {
       "source": "Official organization posting",
       "future": false,
       "dateAdded": "2026-10-22"
+    },
+    {
+      "id": "state-farm-municipal-bonds-2027",
+      "title": "Summer 2027 Intern — Investments, Municipal Bonds",
+      "organization": "State Farm",
+      "category": "Research & data analytics",
+      "arrangement": "Hybrid",
+      "location": "Richardson, TX",
+      "pay": "$33/hour plus $2,000 stipend",
+      "deadline": "Not specified; application portal live October 23, 2026",
+      "eligibility": "Graduate students with first year completed by summer 2027; MPP/MPA/MBA/Finance preferred, not required",
+      "fit": 79,
+      "why": "Quantitative research on state and local government finances, demographic and economic conditions, and policy-relevant municipal institutions.",
+      "details": "June 2–August 11, 2027. Analyzes economic, demographic and financial characteristics of municipal bond issuers; presents written research and recommendations. Hybrid at Richardson CityLine campus. Req 45635.",
+      "url": "https://careers-statefarm.icims.com/jobs/45635/summer-2027-intern---investments---municipal-bonds/job",
+      "source": "State Farm official iCIMS posting (45635)",
+      "future": false,
+      "dateAdded": "2026-10-23"
+    },
+    {
+      "id": "energy-transfer-public-affairs-pa-2027",
+      "title": "Summer 2027 Intern — Government Public Affairs (Pennsylvania)",
+      "organization": "Energy Transfer",
+      "category": "Government & public policy",
+      "arrangement": "In person",
+      "location": "Newtown Square, PA (regional travel)",
+      "pay": "Paid; amount not specified",
+      "deadline": "Not specified; application open October 23, 2026",
+      "eligibility": "Undergraduate or graduate enrollment; graduation Fall 2027 or Spring 2028",
+      "fit": 79,
+      "why": "State regulatory and legislative meetings, community engagement, public hearings, stakeholder outreach and government relations.",
+      "details": "12-week paid internship beginning May 2027. Based at Newtown Square office with some travel to Harrisburg and other events. Distinct from the existing Dallas Government Affairs role. Req 2610003896.",
+      "url": "https://energytransfer.referrals.selectminds.com/jobs/intern-govt-public-affairs-19831",
+      "source": "Energy Transfer official careers (2610003896)",
+      "future": false,
+      "dateAdded": "2026-10-23"
+    },
+    {
+      "id": "doj-violent-crime-racketeering-legal-2027",
+      "title": "Summer 2027 Law Student Volunteer — Violent Crime & Racketeering Section",
+      "organization": "U.S. Department of Justice",
+      "category": "Justice & policing",
+      "arrangement": "In person",
+      "location": "Washington, DC",
+      "pay": "Unpaid; work-study credit possible",
+      "deadline": "January 27, 2027 (rolling)",
+      "eligibility": "Law students only; first year of law school completed",
+      "fit": 96,
+      "why": "Federal criminal procedure, RICO, violent crime, sentencing, organized crime and legislative policy research.",
+      "details": "Future JD watchlist only. Full-time summer commitment 35–40 hours/week; apply October 19, 2026–January 27, 2027. Research and writing with DOJ Criminal Division Violent Crime and Racketeering Section.",
+      "url": "https://www.justice.gov/legal-careers/job/law-student-volunteer-violent-crime-and-racketeering-section-fall-2025",
+      "source": "U.S. Department of Justice official legal careers",
+      "future": true,
+      "dateAdded": "2026-10-23"
+    },
+    {
+      "id": "legal-aid-dc-reentry-legal-2027",
+      "title": "Summer 2027 Intern — Reentry Justice Project",
+      "organization": "Legal Aid DC",
+      "category": "Justice & policing",
+      "arrangement": "Hybrid / in person",
+      "location": "Washington, DC",
+      "pay": "Scholarship support up to $6,440 total, subject to outside funding",
+      "deadline": "October 23, 2026 at 5 PM Eastern",
+      "eligibility": "Law students or law graduates only",
+      "fit": 97,
+      "why": "Criminal-record sealing, collateral consequences, reentry barriers, access to housing/employment, and policy advocacy.",
+      "details": "Future JD watchlist only. Full-time 40 hours/week May 27–August 6, 2027, mostly in-office with supervisor-approved remote work. Requires current law student or law graduate status; scholarship may supplement outside funding.",
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/Details/4558565/LEGAL-AID-SOCIETY-OF-THE-DISTR/Intern-Reentry-Justice-Project-Summer-2027",
+      "source": "Legal Aid DC official Paylocity posting",
+      "future": true,
+      "dateAdded": "2026-10-23"
     }
   ],
-  "lastSearched": "2026-10-22T08:30:00-05:00",
-  "newSinceLastRefresh": 1,
+  "lastSearched": "2026-10-23T13:14:02.169Z",
+  "newSinceLastRefresh": 4,
   "newJobIds": [
-    "american-economic-liberties-research-2027"
+    "state-farm-municipal-bonds-2027",
+    "energy-transfer-public-affairs-pa-2027",
+    "doj-violent-crime-racketeering-legal-2027",
+    "legal-aid-dc-reentry-legal-2027"
   ]
 };
