@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-24T08:40:12-05:00",
+  "lastUpdated": "2026-10-25T13:41:29.584Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1226,24 +1226,6 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-10-19"
     },
     {
-      "id": "fbi-honors-internship-2027",
-      "title": "2027 Honors Internship Program",
-      "organization": "Federal Bureau of Investigation",
-      "category": "Justice & policing",
-      "arrangement": "In person",
-      "location": "FBI field offices and headquarters across US",
-      "pay": "Paid; graduate students with bachelor's degree receive GS-5 pay",
-      "deadline": "See live FBI job postings; 2027 application cycle open",
-      "eligibility": "Full-time students enrolled at accredited US institutions, including graduate students; US citizenship required",
-      "fit": 96,
-      "why": "Direct experience in federal law enforcement, investigations, public safety and intelligence-related operations.",
-      "details": "Paid full-time June–August 2027 internship. Applicants must satisfy FBI suitability and background requirements. Specific placement locations and closing dates vary; consult live FBI vacancy postings.",
-      "url": "https://www.fbijobs.gov/students-and-graduates",
-      "source": "FBI official careers",
-      "future": false,
-      "dateAdded": "2026-10-21"
-    },
-    {
       "id": "highmark-evaluation-analytics-grad-2027",
       "title": "Summer 2027 Evaluation Analytics Graduate Intern",
       "organization": "Highmark Health",
@@ -1512,14 +1494,67 @@ window.TRACKER_DATA = {
       "source": "Brennan Center official hiring portal",
       "future": true,
       "dateAdded": "2026-10-24"
+    },
+    {
+      "id": "state-farm-security-analyst-2027",
+      "title": "Summer 2027 Intern — Security Analyst, Enterprise Security",
+      "organization": "State Farm",
+      "category": "Justice & policing",
+      "arrangement": "Hybrid (Bloomington, IL)",
+      "location": "Bloomington, IL",
+      "pay": "$22/hour plus eligible $2,000 stipend",
+      "deadline": "October 31, 2026 (university listing; employer may close earlier)",
+      "eligibility": "Current criminal justice, criminology, or intelligence studies graduate students; graduation December 2027 or later; work authorization required",
+      "fit": 95,
+      "why": "Explicitly seeks criminology and criminal justice graduate students; investigations, threat assessment, security operations, data analysis and risk governance.",
+      "details": "June 2–August 11, 2027; 38.75 hours/week. Hybrid in Bloomington; no relocation benefits. Employer posting job 45928 active October 25.",
+      "url": "https://jobs.statefarm.com/main/jobs/45928",
+      "source": "State Farm official careers",
+      "future": false,
+      "dateAdded": "2026-10-25"
+    },
+    {
+      "id": "chicago-fed-economic-research-2027",
+      "title": "Summer 2027 Intern — Economic Research",
+      "organization": "Federal Reserve Bank of Chicago",
+      "category": "Research & data analytics",
+      "arrangement": "In person",
+      "location": "Chicago, IL",
+      "pay": "$20–$33/hour",
+      "deadline": "Not specified; verify on application page",
+      "eligibility": "Undergraduate or graduate students graduating Fall 2027 or later; economics, finance, or related quantitative field preferred",
+      "fit": 85,
+      "why": "Applied statistical analysis, policy research, data visualization, R/Python/Stata and research assistant experience; quantitative criminology background may be relevant but degree fit is not guaranteed.",
+      "details": "12 weeks full-time starting June 2027. Supports economists in community development, regional research, microeconomics and other areas. Requires cover letter, resume, transcripts and two references; verify graduation and quantitative-field requirements.",
+      "url": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Summer-2027-Intern---Economic-Research---Chicago_R-0000033628-1",
+      "source": "Federal Reserve Bank of Chicago official Workday",
+      "future": false,
+      "dateAdded": "2026-10-25"
+    },
+    {
+      "id": "nyp-dalio-health-justice-2027",
+      "title": "Summer 2027 Graduate Intern — Dalio Center for Health Justice",
+      "organization": "NewYork-Presbyterian Hospital",
+      "category": "Research & data analytics",
+      "arrangement": "In person",
+      "location": "New York, NY",
+      "pay": "$40/hour",
+      "deadline": "November 14, 2026 (listing)",
+      "eligibility": "Currently enrolled master's or doctoral student with at least one completed year of graduate coursework; public health or related disciplines preferred",
+      "fit": 83,
+      "why": "Equity-focused program evaluation, data analysis, research synthesis, community programs and disparities research.",
+      "details": "10 weeks full-time in June–August 2027. Onsite in New York; no relocation reimbursement. Posting 00889512; confirm application on hospital careers site.",
+      "url": "https://www.internships.com/posting/summer-2027-graduate-internship-program-dalio-center-for-health-justice-newyork-presbyterian-hospital-1080982866",
+      "source": "Employer posting mirrored on Internships.com, last verified October 24",
+      "future": false,
+      "dateAdded": "2026-10-25"
     }
   ],
-  "lastSearched": "2026-10-24T08:40:12-05:00",
-  "newSinceLastRefresh": 4,
+  "lastSearched": "2026-10-25T13:41:29.584Z",
+  "newSinceLastRefresh": 3,
   "newJobIds": [
-    "nissan-corporate-security-2027",
-    "gba-state-government-affairs-2027",
-    "brennan-liberty-national-security-legal-2027",
-    "brennan-democracy-legal-2027"
+    "state-farm-security-analyst-2027",
+    "chicago-fed-economic-research-2027",
+    "nyp-dalio-health-justice-2027"
   ]
 };
