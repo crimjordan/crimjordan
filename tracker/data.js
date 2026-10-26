@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-26T13:57:06.318Z",
+  "lastUpdated": "2026-10-26T13:57:36.573Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -728,14 +728,14 @@ window.TRACKER_DATA = {
       "category": "Justice & policing",
       "arrangement": "Remote / hybrid",
       "location": "Washington, DC or remote US",
-      "pay": "$24/hour stipend (verify posting)",
-      "deadline": "Rolling / see posting",
+      "pay": "$24/hour stipend",
+      "deadline": "Priority December 11, 2026; rolling thereafter",
       "eligibility": "Law students only",
       "fit": 94,
       "why": "Prison conditions, detention oversight, civil rights litigation and government accountability.",
-      "details": "Future JD watchlist; requires law school enrollment.",
-      "url": "https://www.aclu.org/careers/internships",
-      "source": "ACLU official internship listings",
+      "details": "Future JD watchlist only. Law school enrollment required; 35 hours/week for 10 weeks starting May 24 or June 7, 2027. Remote or hybrid, with Washington, DC listed in role header.",
+      "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8843603002",
+      "source": "ACLU official Greenhouse",
       "future": true,
       "dateAdded": null
     },
@@ -764,14 +764,14 @@ window.TRACKER_DATA = {
       "category": "Justice & policing",
       "arrangement": "Remote / hybrid",
       "location": "New York, NY or remote US",
-      "pay": "Stipend; verify exact amount",
-      "deadline": "Rolling / see posting",
+      "pay": "$24/hour stipend",
+      "deadline": "Priority November 6, 2026; rolling thereafter",
       "eligibility": "Law students only",
       "fit": 92,
       "why": "Racial justice litigation, civil rights and legal policy research.",
       "details": "Future JD watchlist; requires law school enrollment.",
-      "url": "https://www.aclu.org/careers/internships",
-      "source": "ACLU official internship listings",
+      "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8846186002",
+      "source": "ACLU official Greenhouse",
       "future": true,
       "dateAdded": null
     },
@@ -1604,24 +1604,6 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-10-26"
     },
     {
-      "id": "aclu-national-prison-project-legal-2027",
-      "title": "Summer 2027 Legal Intern — National Prison Project",
-      "organization": "ACLU National",
-      "category": "Justice & policing",
-      "arrangement": "Remote or hybrid",
-      "location": "Remote US / Washington, DC",
-      "pay": "$24/hour stipend",
-      "deadline": "Priority December 11, 2026; rolling thereafter",
-      "eligibility": "Law students only; must have completed at least one year of law school",
-      "fit": 97,
-      "why": "Litigation and policy research on incarceration, prison oversight, detention conditions and constitutional rights.",
-      "details": "Future JD watchlist only. Full-time 35 hours/week for 10 weeks beginning May 24 or June 7, 2027. Posting mentions Washington DC, with a conflicting New York office reference in logistics.",
-      "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8843603002",
-      "source": "ACLU official Greenhouse",
-      "future": true,
-      "dateAdded": "2026-10-26"
-    },
-    {
       "id": "aclu-lgbtq-hiv-legal-2027",
       "title": "Summer 2027 Legal Intern — LGBTQ & HIV Project",
       "organization": "ACLU National",
@@ -1659,12 +1641,11 @@ window.TRACKER_DATA = {
     }
   ],
   "lastSearched": "2026-10-26T13:57:06.318Z",
-  "newSinceLastRefresh": 6,
+  "newSinceLastRefresh": 5,
   "newJobIds": [
     "energy-solutions-clean-transportation-2027",
     "tpg-y-analytics-responsible-investing-2027",
     "stratolaunch-government-relations-2027",
-    "aclu-national-prison-project-legal-2027",
     "aclu-lgbtq-hiv-legal-2027",
     "aclu-norcal-special-litigation-legal-2027"
   ]
