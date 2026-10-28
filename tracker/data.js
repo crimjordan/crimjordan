@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-10-27T13:17:04.891Z",
+  "lastUpdated": "2026-10-28T13:06:29.160Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1328,8 +1328,8 @@ window.TRACKER_DATA = {
       "fit": 83,
       "why": "Advanced predictive modeling, AI ethics and explainability, graph-based analytics and applied research on large healthcare datasets.",
       "details": "Summer 2027 part-time. Advanced Python/ML, SQL and quantitative programming preferred; ambitious technical fit for criminology graduate student.",
-      "url": "https://www.remotefront.com/remote-jobs/highmark-health-summer-2027-data-science-r-d-graduate-intern-4xqqh",
-      "source": "Highmark Health employer-fed listing",
+      "url": "https://careers.highmarkhealth.org/summer-2027-data-science-r-d-graduate-intern/job/P1-6888960-0",
+      "source": "Highmark Health official careers — J287175",
       "future": false,
       "dateAdded": "2026-10-22"
     },
@@ -1728,15 +1728,86 @@ window.TRACKER_DATA = {
       "source": "ACLU of Oklahoma official posting",
       "future": true,
       "dateAdded": "2026-10-27"
+    },
+    {
+      "id": "highmark-predictive-modeling-ds-grad-2027",
+      "title": "Summer 2027 Predictive Modeling & Data Science Graduate Intern",
+      "organization": "Highmark Health",
+      "category": "Research & data analytics",
+      "arrangement": "Fully remote, part-time",
+      "location": "Remote — U.S. (including Nebraska)",
+      "pay": "Not listed",
+      "deadline": "Not specified; employer application live October 28, 2026",
+      "eligibility": "Graduate students enrolled full or part time; bachelor's degree required; quantitative degree preferred",
+      "fit": 92,
+      "why": "Statistical modeling, prediction, large datasets, exploratory analysis, model evaluation and data visualization are closely aligned with quantitative criminology methods.",
+      "details": "Summer 2027; job J288333, posted October 27. Remote in multiple U.S. states including Nebraska. Requires independent U.S. work authorization; no visa sponsorship. Preferred degree in data science, statistics or related quantitative field.",
+      "url": "https://careers.highmarkhealth.org/summer-2027-predictive-modeling-data-science-graduate-intern/job/P1-7202527-0",
+      "source": "Highmark Health official careers — J288333",
+      "future": false,
+      "dateAdded": "2026-10-28"
+    },
+    {
+      "id": "highmark-applied-genai-ds-grad-2027",
+      "title": "Summer 2027 Applied Gen AI/Data Scientist Graduate Intern",
+      "organization": "Highmark Health",
+      "category": "Research & data analytics",
+      "arrangement": "Fully remote, part-time",
+      "location": "Remote — U.S. (including Nebraska)",
+      "pay": "Not listed",
+      "deadline": "Not specified; employer application live October 28, 2026",
+      "eligibility": "Graduate students enrolled full or part time; bachelor's degree required; CS, data science or related quantitative degree preferred",
+      "fit": 82,
+      "why": "Applied AI evaluation, prompt engineering, RAG and model experimentation; useful adjacent research methods but strongly technical.",
+      "details": "Summer 2027; job J288007, posted October 26. Remote across multiple U.S. states including Nebraska. Python and software/ML skills preferred; independent U.S. work authorization required.",
+      "url": "https://careers.highmarkhealth.org/summer-2027-applied-gen-ai-data-scientist-graduate-intern/job/P1-7076674-0",
+      "source": "Highmark Health official careers — J288007",
+      "future": false,
+      "dateAdded": "2026-10-28"
+    },
+    {
+      "id": "soundexchange-government-relations-policy-2027",
+      "title": "Summer 2027 Government Relations & Public Policy Intern",
+      "organization": "SoundExchange",
+      "category": "Public policy & government",
+      "arrangement": "Hybrid (onsite Tuesdays and Wednesdays)",
+      "location": "Washington, DC",
+      "pay": "$20/hour + $2,000 one-time housing/transportation stipend",
+      "deadline": "November 7, 2026",
+      "eligibility": "Graduate students may apply; undergraduates preferred; minimum 3.0 GPA and current degree enrollment",
+      "fit": 86,
+      "why": "Policy briefs, legislative monitoring and AI-related legislation research offer relevant public-policy and technology governance experience.",
+      "details": "Approximately June 1–August 6, 2027; 35–40 hours/week; hybrid DC with two required onsite days per week.",
+      "url": "https://job-boards.greenhouse.io/sxinternships/jobs/5231083007",
+      "source": "SoundExchange official Greenhouse application",
+      "future": false,
+      "dateAdded": "2026-10-28"
+    },
+    {
+      "id": "doj-usao-wdmo-law-volunteer-2027",
+      "title": "Summer 2027 Law Student Volunteer — U.S. Attorney's Office, Western District of Missouri",
+      "organization": "U.S. Department of Justice",
+      "category": "Justice & policing",
+      "arrangement": "In person",
+      "location": "Kansas City, Springfield or Jefferson City, MO",
+      "pay": "Unpaid (course credit/work-study may be possible)",
+      "deadline": "November 27, 2026",
+      "eligibility": "Law students only (current 1L second semester or 2L); U.S. citizenship and background check required",
+      "fit": 88,
+      "why": "JD watchlist: federal criminal and civil prosecution, legal research, case development and court observation.",
+      "details": "Eight consecutive weeks, approximately 40 hours/week; Kansas City 5 openings, Springfield 2, Jefferson City 2. Apply by email with cover letter and resume.",
+      "url": "https://www.justice.gov/legal-careers/job/law-student-volunteer-summer-2027-5",
+      "source": "U.S. Department of Justice official legal careers",
+      "future": true,
+      "dateAdded": "2026-10-28"
     }
   ],
-  "lastSearched": "2026-10-27T13:17:04.891Z",
-  "newSinceLastRefresh": 5,
+  "lastSearched": "2026-10-28T13:06:29.160Z",
+  "newSinceLastRefresh": 4,
   "newJobIds": [
-    "bcbsm-public-policy-detroit-2027",
-    "bcbsm-public-policy-lansing-2027",
-    "bcbsm-data-analytics-program-performance-2027",
-    "just-futures-technology-police-accountability-legal-2027",
-    "aclu-oklahoma-legal-2027"
+    "highmark-predictive-modeling-ds-grad-2027",
+    "highmark-applied-genai-ds-grad-2027",
+    "soundexchange-government-relations-policy-2027",
+    "doj-usao-wdmo-law-volunteer-2027"
   ]
 };
