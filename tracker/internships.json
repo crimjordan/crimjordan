@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T13:12:03.549Z",
+  "lastUpdated": "2026-10-30T13:42:56.314Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1890,15 +1890,86 @@
       "source": "Official ACLU Greenhouse posting, verified October 29, 2026",
       "future": true,
       "dateAdded": "2026-10-29"
+    },
+    {
+      "id": "lawai-legal-frontiers-summer-research-2027",
+      "title": "Summer 2027 Research Fellowship — Legal Frontiers",
+      "organization": "Institute for Law & AI",
+      "category": "Surveillance, tech & civil liberties",
+      "arrangement": "Remote",
+      "location": "United States (remote-first; Washington, DC convening week)",
+      "pay": "$1,800/week for US-based fellows",
+      "deadline": "2027-01-29",
+      "eligibility": "Conditional: exceptional non-law researchers considered",
+      "fit": 96,
+      "why": "Interdisciplinary empirical research on AI, automated governance, the rule of law, and comparative legal systems.",
+      "details": "Full-time June 14–August 20, 2027; remote-first, with required Washington, DC convening week June 21–25 (eligible travel covered). Open to exceptional public policy/social-science researchers, but most successful candidates have strong legal background and demonstrated law/policy knowledge.",
+      "url": "https://law-ai.org/srf-lf/",
+      "source": "Official LawAI fellowship posting, verified October 30, 2026",
+      "future": false,
+      "dateAdded": "2026-10-30"
+    },
+    {
+      "id": "lawai-us-summer-fellowship-2027",
+      "title": "Summer 2027 Fellowship — US Law & AI Policy",
+      "organization": "Institute for Law & AI",
+      "category": "Surveillance, tech & civil liberties",
+      "arrangement": "In person / remote by exception",
+      "location": "Washington, DC",
+      "pay": "$2,000/week; $10,000 relocation/housing stipend if relocating to DC",
+      "deadline": "2027-01-29",
+      "eligibility": "Conditional: law or comparable US AI legal-policy expertise required",
+      "fit": 90,
+      "why": "Research and policy analysis on AI governance, legal safeguards, government oversight and rule of law.",
+      "details": "Full-time June 14–August 20, 2027; Washington, DC preferred, remote considered only case-by-case for compelling reasons; convening week June 21–25 required. JD not strictly required, but strong grounding in US AI law via formal legal study or comparable professional experience is expected.",
+      "url": "https://law-ai.org/summer-fellowship-us/",
+      "source": "Official LawAI fellowship posting, verified October 30, 2026",
+      "future": false,
+      "dateAdded": "2026-10-30"
+    },
+    {
+      "id": "caresource-quality-performance-outcomes-2027",
+      "title": "2027 Summer Internship — Quality and Performance Outcomes",
+      "organization": "CareSource",
+      "category": "Quantitative research & analytics",
+      "arrangement": "Remote",
+      "location": "United States (remote)",
+      "pay": "Paid; employer posts $41,200–$66,000 annualized compensation range (hourly position)",
+      "deadline": "Open; closing date not confirmed",
+      "eligibility": "Conditional: rising junior/senior or graduated within prior 6 months",
+      "fit": 87,
+      "why": "Evidence-based program-performance research, data analysis, healthcare equity metrics and actionable policy recommendations.",
+      "details": "Paid 12-week Summer 2027 internship. Analyze Early and Periodic Screening, Diagnostic and Treatment (EPSDT) performance, social determinants of health and year-over-year outcomes. Posting specifies rising junior/senior or graduate within six months; confirm master's graduates are eligible.",
+      "url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Quality-and-Performance-Outcomes_R14177",
+      "source": "Official CareSource Workday posting and matching live job description, verified October 30, 2026",
+      "future": false,
+      "dateAdded": "2026-10-30"
+    },
+    {
+      "id": "elevance-public-policy-intern-2027",
+      "title": "Public Policy Intern — Summer 2027",
+      "organization": "Elevance Health",
+      "category": "Public policy & research",
+      "arrangement": "In person",
+      "location": "Washington, DC",
+      "pay": "$19.78–$28.26/hour",
+      "deadline": "2026-12-31 (anticipated)",
+      "eligibility": "Graduate-eligible; Indiana University and DC commuters prioritized",
+      "fit": 76,
+      "why": "Federal and state policy tracking, regulatory research, policy briefs and government affairs analysis.",
+      "details": "Full-time May 17–August 6, 2027. MA/MS students and other majors with demonstrated public-policy experience considered. Recruiting focuses on Indiana University Capital Campus students and employer requires applicants within reasonable commuting distance of DC; December 2027/May 2028 graduation preferred but not required.",
+      "url": "https://careers.elevancehealth.com/public-policy-intern-summer-2027/job/86B9147BF1036364892B578D92213ADE",
+      "source": "Official Elevance Health posting, verified October 30, 2026",
+      "future": false,
+      "dateAdded": "2026-10-30"
     }
   ],
-  "lastSearched": "2026-10-29T13:12:03.549Z",
-  "newSinceLastRefresh": 5,
+  "lastSearched": "2026-10-30T13:42:56.314Z",
+  "newSinceLastRefresh": 4,
   "newJobIds": [
-    "am-public-sector-associate-2027",
-    "globalfoundries-government-affairs-2027",
-    "globalfoundries-legal-government-affairs-2027",
-    "aclu-state-supreme-court-legal-2027",
-    "aclu-voting-rights-legal-2027"
+    "lawai-legal-frontiers-summer-research-2027",
+    "lawai-us-summer-fellowship-2027",
+    "caresource-quality-performance-outcomes-2027",
+    "elevance-public-policy-intern-2027"
   ]
 }
