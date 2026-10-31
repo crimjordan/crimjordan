@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T13:42:56.314Z",
+  "lastUpdated": "2026-10-31T08:11:38-05:00",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1962,14 +1962,86 @@
       "source": "Official Elevance Health posting, verified October 30, 2026",
       "future": false,
       "dateAdded": "2026-10-30"
+    },
+    {
+      "id": "aclu-socal-police-practices-criminal-justice-2027",
+      "title": "Summer 2027 Advocacy Intern — Police Practices & Criminal Justice",
+      "organization": "ACLU of Southern California",
+      "category": "Justice & policing",
+      "arrangement": "Hybrid / remote (project dependent)",
+      "location": "Los Angeles, Orange County, Inland Empire, or Kern County, CA",
+      "pay": "Unpaid; outside funding or work-study encouraged",
+      "deadline": "February 19, 2027",
+      "eligibility": "Graduate students eligible; non-legal applicants welcome",
+      "fit": 99,
+      "why": "Police accountability, surveillance and ALPR records, racial profiling data, civilian oversight, and criminal legal system reform.",
+      "details": "Apply by email with cover letter, resume, writing sample and transcript. Specify Police Practices/National Security or Criminal Justice, office preference, and Summer 2027. Minimum 8 weeks, preferably 10+. Some nonlegal tasks include data analysis and policy reports; fully remote arrangements depend on the project.",
+      "url": "https://www.aclusocal.org/jobs/legaladvocacy-internships-externships-volunteer-opportunities/",
+      "source": "ACLU SoCal official 2027 recruitment",
+      "future": false,
+      "dateAdded": "2026-10-31"
+    },
+    {
+      "id": "aclu-minnesota-nonlegal-policy-2027",
+      "title": "Summer 2027 Non-Legal Civil Liberties & Policy Internship",
+      "organization": "ACLU of Minnesota",
+      "category": "Justice & policing",
+      "arrangement": "Hybrid",
+      "location": "Minneapolis, MN",
+      "pay": "Varies; contingent on outside funding and program budget",
+      "deadline": "Rolling; Summer 2027 proposals accepted",
+      "eligibility": "Non-legal internships; graduate applicants not excluded (confirm eligibility)",
+      "fit": 95,
+      "why": "Opportunity to propose work on police practices, criminal justice, civil liberties and policy research.",
+      "details": "Summer 2027 part-time or full-time. Apply with resume, letter specifying preferred policy issues, optional writing sample and two references. Limited 3–5 summer internship slots; availability depends on capacity.",
+      "url": "https://www.aclu-mn.org/jobs/deptinternships/",
+      "source": "ACLU Minnesota official Summer 2027 posting",
+      "future": false,
+      "dateAdded": "2026-10-31"
+    },
+    {
+      "id": "symetra-data-analytics-remote-2027",
+      "title": "Summer 2027 Data Analytics Internship — Remote",
+      "organization": "Symetra",
+      "category": "Research & data analytics",
+      "arrangement": "Fully remote (United States)",
+      "location": "Remote — USA",
+      "pay": "$22–$25/hour",
+      "deadline": "Not specified; listing active October 31, 2026",
+      "eligibility": "No undergraduate-only restriction listed; SQL and Python coursework or project experience expected",
+      "fit": 90,
+      "why": "Python/SQL data analysis, dashboards, compliance analytics, data quality, and applied AI; strong transferable quantitative methods.",
+      "details": "12-week fully remote Summer 2027 program. Teams may include compliance data analytics, analytics engineering, shared-services AI/data science, and data visualization. Requires U.S. work authorization and wired broadband meeting company minimums. Employer's direct application requisition was not independently located; linked listing reproduces the active posting.",
+      "url": "https://www.interndock.com/internships/symetra/2027-data-analytics-internship-remote-aed73305-c1fc-4340-bd44-5cf9d6d771d6",
+      "source": "Symetra posting mirrored by Intern Dock; checked October 31",
+      "future": false,
+      "dateAdded": "2026-10-31"
+    },
+    {
+      "id": "dc-opc-law-clerk-summer-2027",
+      "title": "Summer 2027 Law Clerk — Police Misconduct & Oversight",
+      "organization": "DC Office of Police Complaints",
+      "category": "Future JD watchlist",
+      "arrangement": "In person",
+      "location": "Washington, DC",
+      "pay": "Paid summer positions subject to budget",
+      "deadline": "April 2, 2027",
+      "eligibility": "Law students only; must complete second law-school year before summer",
+      "fit": 97,
+      "why": "Independent police misconduct investigations, police accountability research, reform recommendations and civil rights law.",
+      "details": "Future JD watchlist only. Summer clerks work full-time for 10 weeks. Agency accepts applications through its official internship form; academic-year clerkships are unpaid.",
+      "url": "https://policecomplaints.dc.gov/page/internship-program",
+      "source": "DC Office of Police Complaints official 2026–27 internship program and 2027 law clerk announcement",
+      "future": true,
+      "dateAdded": "2026-10-31"
     }
   ],
-  "lastSearched": "2026-10-30T13:42:56.314Z",
+  "lastSearched": "2026-10-31T08:11:38-05:00",
   "newSinceLastRefresh": 4,
   "newJobIds": [
-    "lawai-legal-frontiers-summer-research-2027",
-    "lawai-us-summer-fellowship-2027",
-    "caresource-quality-performance-outcomes-2027",
-    "elevance-public-policy-intern-2027"
+    "aclu-socal-police-practices-criminal-justice-2027",
+    "aclu-minnesota-nonlegal-policy-2027",
+    "symetra-data-analytics-remote-2027",
+    "dc-opc-law-clerk-summer-2027"
   ]
 }
