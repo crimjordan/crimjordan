@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-02T15:18:08.000Z",
+  "lastUpdated": "2026-11-03T14:12:45.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -530,14 +530,14 @@ window.TRACKER_DATA = {
       "category": "Justice & policing",
       "arrangement": "In person",
       "location": "Massachusetts (multiple agencies)",
-      "pay": "Paid; based on education level",
+      "pay": "$20/hr undergraduate; $30/hr graduate (DOC host rate; other agencies may vary)",
       "deadline": "November 22, 2026",
       "eligibility": "Undergraduate and graduate students",
       "fit": 97,
       "why": "Policing, traffic safety, criminal justice research and analytics; Office of Grants and Research particularly relevant.",
-      "details": "June 7–August 27, 2027; full or part time; agency placement varies.",
+      "details": "June 7–August 27, 2027; full- or part-time; research/data analytics, police training, corrections, grants and public safety placements. Enrollment at internship start required; confirm eligibility if graduating May 2027.",
       "url": "https://www.mass.gov/how-to/apply-to-the-executive-office-of-public-safety-and-security-internship-program",
-      "source": "Official employer posting",
+      "source": "Massachusetts EOPSS official application and DOC pay page (verified Nov 3, 2026)",
       "future": false,
       "dateAdded": null
     },
@@ -2324,17 +2324,7 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-11-02"
     }
   ],
-  "lastSearched": "2026-11-02T15:18:08.000Z",
-  "newSinceLastRefresh": 9,
-  "newJobIds": [
-    "aclu-nc-policy-advocacy-2027",
-    "richmond-fed-business-survey-2027",
-    "richmond-fed-economics-writing-2027",
-    "fordham-institute-comms-research-spring-2027",
-    "hcrc-capital-postconviction-jd-2027",
-    "aclu-disability-rights-jd-2027",
-    "aclu-veterans-disability-rights-jd-2027",
-    "aclu-nc-legal-jd-2027",
-    "public-counsel-child-youth-family-jd-2027"
-  ]
+  "lastSearched": "2026-11-03T14:12:45.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 };
