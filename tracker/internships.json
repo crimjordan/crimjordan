@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T14:12:45.000Z",
+  "lastUpdated": "2026-11-04T14:10:54.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2322,9 +2322,29 @@
       "source": "Public Counsel official Summer 2027 application page; verified Nov 2, 2026",
       "future": true,
       "dateAdded": "2026-11-02"
+    },
+    {
+      "id": "fire-summer-legal-2027",
+      "title": "2027 Summer Legal Internship",
+      "organization": "Foundation for Individual Rights and Expression (FIRE)",
+      "category": "Civil liberties & legal advocacy",
+      "arrangement": "In person",
+      "location": "Philadelphia, PA or Washington, DC",
+      "pay": "$8,000 stipend",
+      "deadline": "Open; deadline not stated",
+      "eligibility": "JD only — future watchlist",
+      "fit": 85,
+      "why": "Civil liberties, free expression, First Amendment advocacy, legal research, and public policy.",
+      "details": "June 1–August 6, 2027; 10 weeks. Requires rising 2L or 3L law student; not eligible for a criminology master's student without JD enrollment. Official employer application page active November 4, 2026.",
+      "url": "https://thefire.applytojob.com/apply/2tbqZLfy5U/2027-Summer-Legal-Internship",
+      "source": "FIRE official application; verified 2026-11-04",
+      "future": true,
+      "dateAdded": "2026-11-04"
     }
   ],
-  "lastSearched": "2026-11-03T14:12:45.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-04T14:10:54.000Z",
+  "newSinceLastRefresh": 1,
+  "newJobIds": [
+    "fire-summer-legal-2027"
+  ]
 }
