@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-05T14:43:34.000Z",
+  "lastUpdated": "2026-11-06T14:56:19.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2432,13 +2432,7 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-11-05"
     }
   ],
-  "lastSearched": "2026-11-05T14:43:34.000Z",
-  "newSinceLastRefresh": 5,
-  "newJobIds": [
-    "nyclu-policy-law-2027",
-    "nyclu-education-law-2027",
-    "nyclu-legal-2027",
-    "aclu-sc-wilkinson-2027",
-    "aclu-sc-slip-2027"
-  ]
+  "lastSearched": "2026-11-06T14:56:19.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 };
