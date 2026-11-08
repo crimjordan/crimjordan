@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-07T14:32:41.000Z",
+  "lastUpdated": "2026-11-08T14:24:34.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2430,9 +2430,86 @@ window.TRACKER_DATA = {
       "source": "Official employer careers page; verified 2026-11-05",
       "future": true,
       "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "doj-atf-chief-counsel-2027",
+      "title": "Summer 2027 Law Student Volunteer — ATF Office of Chief Counsel",
+      "organization": "U.S. Department of Justice — ATF",
+      "category": "Future JD watchlist",
+      "arrangement": "In person",
+      "location": "Washington, DC",
+      "pay": "Unpaid",
+      "deadline": "December 31, 2026 (2Ls); January 31, 2027 (1Ls)",
+      "eligibility": "Law students only — future JD watchlist",
+      "fit": 82,
+      "why": "Criminal enforcement, firearms regulation, constitutional law, legislative review and agency accountability.",
+      "details": "Summer 2027; 3–5 unpaid positions. U.S. citizenship and one completed year of law school required. Rolling applications.",
+      "url": "https://www.justice.gov/legal-careers/job/law-student-volunteer-summer-2027-3",
+      "source": "Verified public posting 2026-11-08",
+      "future": true,
+      "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "doj-oil-civil-2027",
+      "title": "Summer 2027 Legal Volunteer — Office of Immigration Litigation",
+      "organization": "U.S. Department of Justice — Civil Division",
+      "category": "Future JD watchlist",
+      "arrangement": "In person",
+      "location": "Washington, DC",
+      "pay": "Unpaid",
+      "deadline": "January 8, 2027",
+      "eligibility": "Law students only — future JD watchlist",
+      "fit": 77,
+      "why": "Research on immigration detention, criminal-law intersections, administrative law and federal litigation.",
+      "details": "Summer 2027, 10 weeks in person, 40 hours/week, unpaid. Current 1L or 2L; U.S. citizenship and 3.0 law GPA required. 1Ls may apply starting December 1, 2026.",
+      "url": "https://www.justice.gov/legal-careers/job/law-student-volunteer-civil-division-office-immigration-litigation-summer-2026",
+      "source": "Verified public posting 2026-11-08",
+      "future": true,
+      "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "doj-usao-edky-2027",
+      "title": "Summer 2027 Law Student Volunteer — U.S. Attorney's Office, Eastern Kentucky",
+      "organization": "U.S. Department of Justice — USAO Eastern District of Kentucky",
+      "category": "Future JD watchlist",
+      "arrangement": "In person",
+      "location": "Lexington, Ft. Mitchell, or London, KY",
+      "pay": "Unpaid",
+      "deadline": "January 8, 2027 (online application instructions; page header says January 11)",
+      "eligibility": "Law students only — future JD watchlist",
+      "fit": 80,
+      "why": "Criminal prosecution and federal justice system exposure; direct prosecutorial practice experience.",
+      "details": "Summer 2027, late May–August, minimum 10 weeks, full-time in person, unpaid. Current law students only; U.S. citizenship and background check required. Page contains inconsistent January 8/11 deadlines.",
+      "url": "https://www.justice.gov/legal-careers/job/law-student-volunteer-summer-2027-9",
+      "source": "Verified public posting 2026-11-08",
+      "future": true,
+      "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "cac-legal-intern-2027",
+      "title": "Summer 2027 Legal Internship — Constitutional Accountability Center",
+      "organization": "Constitutional Accountability Center",
+      "category": "Future JD watchlist",
+      "arrangement": "Hybrid",
+      "location": "Washington, DC",
+      "pay": "$3,500 stipend; potentially up to $7,000",
+      "deadline": "Rolling; apply promptly",
+      "eligibility": "Law students only — future JD watchlist",
+      "fit": 79,
+      "why": "Constitutional litigation, civil liberties, rights advocacy and legal research.",
+      "details": "May–July 2027, 10 weeks, 40 hours/week, hybrid. $3,500 stipend; additional support up to $7,000 depending on law-school funding. Current law students only.",
+      "url": "https://www.idealist.org/en/nonprofit-internship/592236f5b80d440890fbd7955046fafa-legal-internship-summer-2027-constitutional-accountability-center-washington",
+      "source": "Verified public posting 2026-11-08",
+      "future": true,
+      "dateAdded": "2026-11-08"
     }
   ],
-  "lastSearched": "2026-11-07T14:32:41.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-08T14:24:34.000Z",
+  "newSinceLastRefresh": 4,
+  "newJobIds": [
+    "doj-atf-chief-counsel-2027",
+    "doj-oil-civil-2027",
+    "doj-usao-edky-2027",
+    "cac-legal-intern-2027"
+  ]
 };
