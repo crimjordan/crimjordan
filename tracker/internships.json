@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:24:34.000Z",
+  "lastUpdated": "2026-11-09T14:52:16.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2504,12 +2504,7 @@
       "dateAdded": "2026-11-08"
     }
   ],
-  "lastSearched": "2026-11-08T14:24:34.000Z",
-  "newSinceLastRefresh": 4,
-  "newJobIds": [
-    "doj-atf-chief-counsel-2027",
-    "doj-oil-civil-2027",
-    "doj-usao-edky-2027",
-    "cac-legal-intern-2027"
-  ]
+  "lastSearched": "2026-11-09T14:52:16.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 }
