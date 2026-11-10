@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-09T14:52:16.000Z",
+  "lastUpdated": "2026-11-10T14:10:08.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2502,9 +2502,29 @@ window.TRACKER_DATA = {
       "source": "Verified public posting 2026-11-08",
       "future": true,
       "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "apaics-summer-congressional-2027",
+      "title": "Summer 2027 Congressional Internship",
+      "organization": "Asian Pacific American Institute for Congressional Studies (APAICS)",
+      "category": "Public policy & government",
+      "arrangement": "In person",
+      "location": "Washington, DC",
+      "pay": "$3,800 grant; shared housing, travel and Metro assistance",
+      "deadline": "December 18, 2026, 11:59 PM ET",
+      "eligibility": "College students and eligible recent graduates; graduate students not excluded (confirm individual eligibility)",
+      "fit": 85,
+      "why": "Hands-on congressional legislative research and public service, relevant to policing, civil liberties, and policy interests.",
+      "details": "June 7–July 30, 2027; 30–40 hours/week in congressional office. APAICS FAQ confirms spring 2027 graduates may participate; commitment to AA & NH/PI community is valued but identity is not an eligibility restriction. Employer FAQ lists $3,800 grant; a third-party university posting lists an outdated $2,550 figure.",
+      "url": "https://www.apaics.org/congressional-internship",
+      "source": "APAICS official congressional internship FAQ and application; verified Nov 10, 2026",
+      "future": false,
+      "dateAdded": "2026-11-10"
     }
   ],
-  "lastSearched": "2026-11-09T14:52:16.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-10T14:10:08.000Z",
+  "newSinceLastRefresh": 1,
+  "newJobIds": [
+    "apaics-summer-congressional-2027"
+  ]
 };
