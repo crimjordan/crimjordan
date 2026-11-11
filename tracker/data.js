@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-10T14:10:08.000Z",
+  "lastUpdated": "2026-11-11T14:08:20.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -294,16 +294,16 @@ window.TRACKER_DATA = {
       "title": "Data Analytics & Programs Intern — Summer 2027",
       "organization": "Veeam",
       "category": "Research & data",
-      "arrangement": "Hybrid",
-      "location": "Georgia, US",
+      "arrangement": "Remote",
+      "location": "Remote — Georgia, USA (residency/location restrictions may apply)",
       "pay": "$20–$25/hour",
       "deadline": "Not stated",
-      "eligibility": "Likely match",
+      "eligibility": "Graduate students eligible; preferred quantitative/business-related fields; confirm state residency eligibility",
       "fit": 91,
       "why": "Graduate-eligible analytics role focused on turning operational and customer-feedback data into findings, dashboards, recommendations, and program materials.",
-      "details": "10-week program from June through August 2027. Graduate students are eligible; preferred fields include statistics, data analytics, business administration, marketing, or a related field.",
-      "url": "https://careers.veeam.com/job/georgia/data-analytics-and-programs-intern-summer-2027/22681/100489030400",
-      "source": "Veeam",
+      "details": "10-week paid June–August 2027 program. Data analysis, dashboards, program tracking, recommendations and reporting; official posting specifies remote Georgia and $20–$25/hour. Confirm eligibility based on state of residence.",
+      "url": "https://job-boards.greenhouse.io/veeamsoftware/jobs/4955300101",
+      "source": "Veeam official live application, verified November 11, 2026",
       "future": false,
       "dateAdded": null
     },
@@ -1521,13 +1521,13 @@ window.TRACKER_DATA = {
       "arrangement": "In person",
       "location": "New York, NY",
       "pay": "$40/hour",
-      "deadline": "November 14, 2026 (listing)",
+      "deadline": "Closed/filled as of November 11, 2026",
       "eligibility": "Currently enrolled master's or doctoral student with at least one completed year of graduate coursework; public health or related disciplines preferred",
       "fit": 83,
       "why": "Equity-focused program evaluation, data analysis, research synthesis, community programs and disparities research.",
-      "details": "10 weeks full-time in June–August 2027. Onsite in New York; no relocation reimbursement. Posting 00889512; confirm application on hospital careers site.",
+      "details": "10 weeks full-time in June–August 2027. Onsite in New York; no relocation reimbursement. Posting 00889512; confirm application on hospital careers site. Official employer application now says the job has been filled; do not apply via stale aggregator.",
       "url": "https://www.internships.com/posting/summer-2027-graduate-internship-program-dalio-center-for-health-justice-newyork-presbyterian-hospital-1080982866",
-      "source": "Employer posting mirrored on Internships.com, last verified October 24",
+      "source": "NewYork-Presbyterian official application marked filled November 11, 2026",
       "future": false,
       "dateAdded": "2026-10-25"
     },
@@ -2522,9 +2522,7 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-11-10"
     }
   ],
-  "lastSearched": "2026-11-10T14:10:08.000Z",
-  "newSinceLastRefresh": 1,
-  "newJobIds": [
-    "apaics-summer-congressional-2027"
-  ]
+  "lastSearched": "2026-11-11T14:08:20.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 };
