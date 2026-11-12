@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-11T14:08:20.000Z",
+  "lastUpdated": "2026-11-12T14:55:04.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2520,9 +2520,48 @@ window.TRACKER_DATA = {
       "source": "APAICS official congressional internship FAQ and application; verified Nov 10, 2026",
       "future": false,
       "dateAdded": "2026-11-10"
+    },
+    {
+      "id": "aclu-trone-center-legal-2027",
+      "title": "Summer 2027 Legal Intern — Trone Center for Justice and Equality",
+      "organization": "ACLU",
+      "category": "Justice & policing",
+      "arrangement": "Remote / hybrid",
+      "location": "Washington, DC or remote (U.S.)",
+      "pay": "$24/hour stipend",
+      "deadline": "Rolling; priority deadline unclear in employer posting",
+      "eligibility": "Law students only (completed 1L)",
+      "fit": 98,
+      "why": "Police accountability, prosecutorial abuses, criminal legal reform, surveillance and civil liberties.",
+      "details": "Full-time 35 hours/week for 10 weeks beginning May 24 or June 7, 2027. JD enrollment required; not eligible for a criminology master's alone.",
+      "url": "https://job-boards.greenhouse.io/acluinternships/jobs/8932353002",
+      "source": "Official ACLU Greenhouse application; verified 2026-11-12",
+      "future": true,
+      "dateAdded": "2026-11-12"
+    },
+    {
+      "id": "legal-aid-dc-reentry-jd-2027",
+      "title": "Summer 2027 Intern — Reentry Justice Project",
+      "organization": "Legal Aid DC",
+      "category": "Justice & policing",
+      "arrangement": "Primarily in person / limited remote",
+      "location": "Washington, DC",
+      "pay": "Up to $6,440 summer scholarship, depending on outside funding",
+      "deadline": "November 13, 2026, 5 p.m. ET (verify directly; third-party postings conflict)",
+      "eligibility": "Current law student or law graduate only",
+      "fit": 91,
+      "why": "Criminal records, collateral consequences, reentry policy and justice reform.",
+      "details": "Full-time 40 hours/week, May 27–August 6, 2027. Primarily DC office; limited remote possible with approval. Law school enrollment or degree required.",
+      "url": "https://www.nlada.org/job-board",
+      "source": "NLADA job board and Legal Aid DC syndicated posting; verified 2026-11-12",
+      "future": true,
+      "dateAdded": "2026-11-12"
     }
   ],
-  "lastSearched": "2026-11-11T14:08:20.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-12T14:55:04.000Z",
+  "newSinceLastRefresh": 2,
+  "newJobIds": [
+    "aclu-trone-center-legal-2027",
+    "legal-aid-dc-reentry-jd-2027"
+  ]
 };
