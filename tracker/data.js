@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-12T14:55:04.000Z",
+  "lastUpdated": "2026-11-13T14:17:32.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2556,12 +2556,29 @@ window.TRACKER_DATA = {
       "source": "NLADA job board and Legal Aid DC syndicated posting; verified 2026-11-12",
       "future": true,
       "dateAdded": "2026-11-12"
+    },
+    {
+      "id": "public-citizen-congress-watch-advocacy-2027",
+      "title": "Summer 2027 Congress Watch Advocacy Internship",
+      "organization": "Public Citizen",
+      "category": "Policy & government",
+      "arrangement": "Washington, DC / arrangement not specified",
+      "location": "Washington, DC",
+      "pay": "Unpaid Summer 2027 applications accepted rolling; paid $18.40/hour positions currently advertised for Spring 2027 only",
+      "deadline": "Rolling for unpaid Summer 2027",
+      "eligibility": "College-level applicants; graduate students not excluded (confirm directly)",
+      "fit": 87,
+      "why": "Legislative research, civil justice, government accountability, regulatory policy and advocacy.",
+      "details": "Approximately eight weeks, up to 40 hours/week; summer 2027 explicitly named in application subject instructions. Cover letter, resume, and writing sample requested. Summer paid positions not currently confirmed.",
+      "url": "https://www.citizen.org/about/careers/congress-watch-advocacy-internship/",
+      "source": "Official Public Citizen Congress Watch page verified November 13, 2026",
+      "future": false,
+      "dateAdded": "2026-11-13"
     }
   ],
-  "lastSearched": "2026-11-12T14:55:04.000Z",
-  "newSinceLastRefresh": 2,
+  "lastSearched": "2026-11-13T14:17:32.000Z",
+  "newSinceLastRefresh": 1,
   "newJobIds": [
-    "aclu-trone-center-legal-2027",
-    "legal-aid-dc-reentry-jd-2027"
+    "public-citizen-congress-watch-advocacy-2027"
   ]
 };
