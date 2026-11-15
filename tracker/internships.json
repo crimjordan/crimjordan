@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T14:43:20.000Z",
+  "lastUpdated": "2026-11-15T14:04:13.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2574,9 +2574,67 @@
       "source": "Official Public Citizen Congress Watch page verified November 13, 2026",
       "future": false,
       "dateAdded": "2026-11-13"
+    },
+    {
+      "id": "cdt-graduate-policy-research-2027",
+      "title": "Summer 2027 Graduate Legal, Policy, Research or Technologist Internship",
+      "organization": "Center for Democracy & Technology",
+      "category": "Surveillance & privacy",
+      "arrangement": "Remote possible / hybrid preferred",
+      "location": "Washington, DC or remote (United States)",
+      "pay": "$7,500 stipend for 10 weeks unless funded elsewhere",
+      "deadline": "January 18, 2027 (rolling from November 2, 2026)",
+      "eligibility": "Current master's, MPP, JD, PhD or dual-degree student; master's explicitly eligible",
+      "fit": 99,
+      "why": "Exceptionally strong alignment with law enforcement surveillance, civil liberties, privacy, AI governance, empirical research and public policy.",
+      "details": "Ten weeks after Memorial Day 2027. Security & Surveillance, Research, Privacy & Data and AI Governance teams. Resume and cover letter combined; respond to one policy writing prompt.",
+      "url": "https://cdt.hire.trakstar.com/jobs/fk0zlou/",
+      "source": "Official CDT Trakstar application verified November 15, 2026",
+      "future": false,
+      "dateAdded": "2026-11-15"
+    },
+    {
+      "id": "macarthur-evaluation-learning-2027",
+      "title": "Evaluation & Learning Intern — Summer 2027",
+      "organization": "John D. and Catherine T. MacArthur Foundation",
+      "category": "Research & data",
+      "arrangement": "Hybrid (Chicago residency required)",
+      "location": "Chicago, IL",
+      "pay": "Starting at $22/hour; possible housing assistance",
+      "deadline": "November 30, 2026 at 11:59 p.m. CST",
+      "eligibility": "Undergraduate or graduate student returning to school after summer 2027",
+      "fit": 93,
+      "why": "Direct experience in program evaluation, mixed-methods research, data visualization, learning systems and policy-oriented philanthropy.",
+      "details": "June 8–August 11, 2027. Chicago-area residence required. Students must return to school after internship; confirm eligibility if graduating May 2027.",
+      "url": "https://macfound.wd1.myworkdayjobs.com/MAC_FOUND_EXT_CAREERS/job/Chicago-Office/Evaluation---Learning-Intern---Summer-2027_REQ-000362",
+      "source": "Official MacArthur Workday posting verified November 15, 2026",
+      "future": false,
+      "dateAdded": "2026-11-15"
+    },
+    {
+      "id": "macarthur-new-work-exploration-2027",
+      "title": "New Work Exploration Intern — Summer 2027",
+      "organization": "John D. and Catherine T. MacArthur Foundation",
+      "category": "Research & data",
+      "arrangement": "Hybrid (Chicago residency required)",
+      "location": "Chicago, IL",
+      "pay": "Starting at $22/hour; possible housing assistance",
+      "deadline": "November 30, 2026 at 11:59 p.m. CST",
+      "eligibility": "Student returning to school after summer 2027; confirm degree-specific eligibility",
+      "fit": 85,
+      "why": "Research and analytics work connected to nonprofit strategy, civic engagement, justice and youth opportunities.",
+      "details": "June 8–August 11, 2027. Reports to Research & Analytics Project Manager. Requires Chicago-area residence and returning to school after summer.",
+      "url": "https://macfound.wd1.myworkdayjobs.com/en-US/MAC_FOUND_EXT_CAREERS/job/New-Work-Exploration-Intern---Summer-2027_REQ-000372",
+      "source": "Official MacArthur Workday posting verified November 15, 2026",
+      "future": false,
+      "dateAdded": "2026-11-15"
     }
   ],
-  "lastSearched": "2026-11-14T14:43:20.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-15T14:04:13.000Z",
+  "newSinceLastRefresh": 3,
+  "newJobIds": [
+    "cdt-graduate-policy-research-2027",
+    "macarthur-evaluation-learning-2027",
+    "macarthur-new-work-exploration-2027"
+  ]
 }
