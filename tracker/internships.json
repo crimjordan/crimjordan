@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T14:04:13.000Z",
+  "lastUpdated": "2026-11-17T14:18:25.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2630,11 +2630,7 @@
       "dateAdded": "2026-11-15"
     }
   ],
-  "lastSearched": "2026-11-15T14:04:13.000Z",
-  "newSinceLastRefresh": 3,
-  "newJobIds": [
-    "cdt-graduate-policy-research-2027",
-    "macarthur-evaluation-learning-2027",
-    "macarthur-new-work-exploration-2027"
-  ]
+  "lastSearched": "2026-11-17T14:18:25.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 }
