@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T14:18:25.000Z",
+  "lastUpdated": "2026-11-18T14:09:30.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2628,9 +2628,29 @@
       "source": "Official MacArthur Workday posting verified November 15, 2026",
       "future": false,
       "dateAdded": "2026-11-15"
+    },
+    {
+      "id": "governing-for-impact-legal-2027",
+      "title": "Summer 2027 Legal Policy Internship",
+      "organization": "Governing for Impact",
+      "category": "Future JD watchlist",
+      "arrangement": "Primarily in person / flexible hybrid",
+      "location": "Washington, DC",
+      "pay": "$25/hour",
+      "deadline": "Rolling review beginning November 16, 2026",
+      "eligibility": "Current law students only",
+      "fit": 88,
+      "why": "Federal regulatory policy, executive accountability, administrative law, and research; requires current law-school enrollment.",
+      "details": "Full-time, typically 8–10 weeks, flexible dates. Hybrid arrangements possible. Application by email with interest statement, resume, writing sample, and transcript if available.",
+      "url": "https://governingforimpact.org/wp-content/uploads/2026/11/2027-GFI-Intern-Posting.pdf",
+      "source": "Official Governing for Impact Summer 2027 posting verified November 18, 2026",
+      "future": true,
+      "dateAdded": "2026-11-18"
     }
   ],
-  "lastSearched": "2026-11-17T14:18:25.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-18T14:09:30.000Z",
+  "newSinceLastRefresh": 1,
+  "newJobIds": [
+    "governing-for-impact-legal-2027"
+  ]
 }
