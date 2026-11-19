@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T14:09:30.000Z",
+  "lastUpdated": "2026-11-19T14:25:35.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2648,9 +2648,7 @@
       "dateAdded": "2026-11-18"
     }
   ],
-  "lastSearched": "2026-11-18T14:09:30.000Z",
-  "newSinceLastRefresh": 1,
-  "newJobIds": [
-    "governing-for-impact-legal-2027"
-  ]
+  "lastSearched": "2026-11-19T14:25:35.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 }
