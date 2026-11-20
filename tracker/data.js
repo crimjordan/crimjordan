@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-19T14:25:35.000Z",
+  "lastUpdated": "2026-11-20T14:26:00.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2646,9 +2646,67 @@ window.TRACKER_DATA = {
       "source": "Official Governing for Impact Summer 2027 posting verified November 18, 2026",
       "future": true,
       "dateAdded": "2026-11-18"
+    },
+    {
+      "id": "splc-policy-research-poverty-2027",
+      "title": "Summer 2027 Policy Research Intern — Eradicating Poverty",
+      "organization": "Southern Poverty Law Center",
+      "category": "Public policy & research",
+      "arrangement": "Remote / hybrid options",
+      "location": "Remote (US); SPLC offices across Southeast and Washington, DC",
+      "pay": "$18.40/hour",
+      "deadline": "December 14, 2026, 5 p.m. CST",
+      "eligibility": "Graduate students eligible; must remain enrolled through summer",
+      "fit": 93,
+      "why": "Data-driven policy research, statistical analysis, research memos, government advocacy and economic justice.",
+      "details": "June 7, 2027 start; minimum 10 consecutive weeks; 40 hours/week. Remote distant and local remote options. Application asks for graduation date and says applicants must not graduate before August.",
+      "url": "https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8945974002",
+      "source": "Official SPLC Greenhouse posting verified November 20, 2026",
+      "future": false,
+      "dateAdded": "2026-11-20"
+    },
+    {
+      "id": "splc-federal-policy-2027",
+      "title": "Summer 2027 Federal Policy Intern",
+      "organization": "Southern Poverty Law Center",
+      "category": "Public policy & research",
+      "arrangement": "Local remote / occasional in person",
+      "location": "Washington, DC",
+      "pay": "$18.40/hour",
+      "deadline": "December 18, 2026, 5 p.m. CST",
+      "eligibility": "Graduate students eligible; current enrollment required",
+      "fit": 96,
+      "why": "Federal policy analysis on decriminalization, decarceration, democracy and civil rights; research and policy writing.",
+      "details": "June 7, 2027 start; minimum 10 consecutive weeks; 40 hours/week. Local remote based in DC with occasional in-person activities. Verify graduation-date eligibility if finishing May 2027.",
+      "url": "https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8950751002",
+      "source": "Official SPLC Greenhouse posting verified November 20, 2026",
+      "future": false,
+      "dateAdded": "2026-11-20"
+    },
+    {
+      "id": "splc-hate-prevention-2027",
+      "title": "Summer 2027 Hate Prevention Intern",
+      "organization": "Southern Poverty Law Center",
+      "category": "Justice & policing",
+      "arrangement": "Remote",
+      "location": "Remote (US)",
+      "pay": "$18.40/hour",
+      "deadline": "December 18, 2026, 5 p.m. CST",
+      "eligibility": "Graduate students in relevant social science fields eligible; enrollment required",
+      "fit": 91,
+      "why": "Research on extremist violence, radicalization, hate prevention and community harms.",
+      "details": "June 7, 2027 start; minimum 10 consecutive weeks; 40 hours/week. Research and develop prevention resources for SPLC Intelligence Project. Verify graduation-date eligibility if finishing May 2027.",
+      "url": "https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8950825002",
+      "source": "Official SPLC Greenhouse posting verified November 20, 2026",
+      "future": false,
+      "dateAdded": "2026-11-20"
     }
   ],
-  "lastSearched": "2026-11-19T14:25:35.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-20T14:26:00.000Z",
+  "newSinceLastRefresh": 3,
+  "newJobIds": [
+    "splc-policy-research-poverty-2027",
+    "splc-federal-policy-2027",
+    "splc-hate-prevention-2027"
+  ]
 };
