@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-21T14:37:12.000Z",
+  "lastUpdated": "2026-11-22T14:09:56.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2702,7 +2702,7 @@ window.TRACKER_DATA = {
       "dateAdded": "2026-11-20"
     }
   ],
-  "lastSearched": "2026-11-21T14:37:12.000Z",
+  "lastSearched": "2026-11-22T14:09:56.000Z",
   "newSinceLastRefresh": 0,
   "newJobIds": []
 };
