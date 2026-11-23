@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:09:56.000Z",
+  "lastUpdated": "2026-11-23T14:57:59.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2702,7 +2702,7 @@
       "dateAdded": "2026-11-20"
     }
   ],
-  "lastSearched": "2026-11-22T14:09:56.000Z",
+  "lastSearched": "2026-11-23T14:57:59.000Z",
   "newSinceLastRefresh": 0,
   "newJobIds": []
 }
