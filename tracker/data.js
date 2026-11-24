@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-23T14:57:59.000Z",
+  "lastUpdated": "2026-11-24T14:33:10.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2700,9 +2700,29 @@ window.TRACKER_DATA = {
       "source": "Official SPLC Greenhouse posting verified November 20, 2026",
       "future": false,
       "dateAdded": "2026-11-20"
+    },
+    {
+      "id": "fpf-us-policy-summer-2027",
+      "title": "Summer 2027 U.S. Policy Internship",
+      "organization": "Future of Privacy Forum",
+      "category": "Surveillance, tech & civil liberties",
+      "arrangement": "Remote / hybrid",
+      "location": "United States / Washington, DC",
+      "pay": "External funding or academic credit required",
+      "deadline": "Rolling; decisions January–February 2027",
+      "eligibility": "Graduate students eligible; funding or credit required",
+      "fit": 97,
+      "why": "Privacy, data protection, AI regulation and technology policy research.",
+      "details": "Ten weeks, full-time, early June to mid-August. Fully remote US candidates welcome. Summer 2027 applications explicitly open on employer page.",
+      "url": "https://fpf.org/us-policy-internships/",
+      "source": "Official employer internship page verified November 24, 2026",
+      "future": false,
+      "dateAdded": "2026-11-24"
     }
   ],
-  "lastSearched": "2026-11-23T14:57:59.000Z",
-  "newSinceLastRefresh": 0,
-  "newJobIds": []
+  "lastSearched": "2026-11-24T14:33:10.000Z",
+  "newSinceLastRefresh": 1,
+  "newJobIds": [
+    "fpf-us-policy-summer-2027"
+  ]
 };
