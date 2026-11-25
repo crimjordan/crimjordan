@@ -1,5 +1,5 @@
 window.TRACKER_DATA = {
-  "lastUpdated": "2026-11-24T14:33:10.000Z",
+  "lastUpdated": "2026-11-25T14:06:56.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -2718,11 +2718,29 @@ window.TRACKER_DATA = {
       "source": "Official employer internship page verified November 24, 2026",
       "future": false,
       "dateAdded": "2026-11-24"
+    },
+    {
+      "id": "sas-evaas-education-policy-2027",
+      "title": "Summer 2027 – EVAAS Education Policy Graduate Intern",
+      "organization": "SAS",
+      "category": "Research & data",
+      "arrangement": "Remote / hybrid",
+      "location": "Cary, NC / United States (in-person start required)",
+      "pay": "$29–$49/hour graduate-level range",
+      "deadline": "December 12, 2026 (university listing)",
+      "eligibility": "Check requirements",
+      "fit": 82,
+      "why": "Applied outcomes analysis, policy briefs, public-sector analytics and accountability research.",
+      "details": "May 18–August 6, 2027. Remote option available but must start in Cary in person. Requires master's enrollment and graduation no earlier than December 2027; targeted majors include public policy and analytics. Confirm criminology eligibility.",
+      "url": "https://careers-sas.icims.com/jobs/42762/summer-2027---evaas-education-policy-graduate-intern/job?hub=9&in_iframe=1",
+      "source": "SAS official careers posting and Clark Atlanta University career listing, verified November 25, 2026",
+      "future": false,
+      "dateAdded": "2026-11-25"
     }
   ],
-  "lastSearched": "2026-11-24T14:33:10.000Z",
+  "lastSearched": "2026-11-25T14:06:56.000Z",
   "newSinceLastRefresh": 1,
   "newJobIds": [
-    "fpf-us-policy-summer-2027"
+    "sas-evaas-education-policy-2027"
   ]
 };
