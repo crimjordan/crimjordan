@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T14:06:56.000Z",
+  "lastUpdated": "2026-11-26T14:46:54.000Z",
   "jobs": [
     {
       "id": "aclu-cli-2027",
@@ -1233,13 +1233,13 @@
       "arrangement": "Remote (eligible US states; part-time)",
       "location": "Remote, US (51 listed locations including Nebraska)",
       "pay": "Not specified",
-      "deadline": "Not specified; live October 22, 2026",
+      "deadline": "Not specified on employer posting; application link displayed November 26, 2026",
       "eligibility": "Graduate enrollment required; legal studies or related field preferred",
       "fit": 96,
       "why": "Program evaluation, applied statistics, research design, R/SAS analysis and evidence-based assessment of healthcare programs.",
       "details": "Summer 2027; remote part-time. Full-time or part-time graduate enrollment accepted. Research design, program evaluation, statistical analyses using R or SAS. Verify eligible remote work states at application.",
-      "url": "https://careers.highmarkhealth.org/summer-2027-evaluation-analytics-graduate-intern/job/P1-7076854-0",
-      "source": "Highmark Health official careers (J288013)",
+      "url": "https://careers.highmarkhealth.org/summer-2027-evaluation-analytics-graduate-intern/job/J288013",
+      "source": "Highmark Health official careers (J288013); rechecked November 26, 2026",
       "future": false,
       "dateAdded": "2026-10-22"
     },
@@ -2738,9 +2738,7 @@
       "dateAdded": "2026-11-25"
     }
   ],
-  "lastSearched": "2026-11-25T14:06:56.000Z",
-  "newSinceLastRefresh": 1,
-  "newJobIds": [
-    "sas-evaas-education-policy-2027"
-  ]
+  "lastSearched": "2026-11-26T14:46:54.000Z",
+  "newSinceLastRefresh": 0,
+  "newJobIds": []
 }
