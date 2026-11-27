@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "awards": [
     {
       "id": "asc-carte",
@@ -510,6 +510,91 @@
       "fit": 2,
       "added": "2026-11-26",
       "checked": "2026-11-26"
+    },
+    {
+      "id": "acjs-student-scholarship",
+      "title": "Student Affairs Committee Student Scholarship Award",
+      "org": "Academy of Criminal Justice Sciences",
+      "type": "Manuscript",
+      "field": "Criminology",
+      "deadline": "2026-12-01",
+      "route": "Self-nomination",
+      "publication": "Check publication rules",
+      "eligibility": "Graduate enrollment at nomination and meeting; accepted ACJS paper and attendance required; student-only authors; no membership or faculty recommendation required.",
+      "url": "https://www.acjs.org/acjs-academy-awards-2027/",
+      "cycle": "2027 call",
+      "prize": "$600 travel funding",
+      "fit": 5,
+      "added": "2026-11-27",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "acjs-panel",
+      "title": "Student Panel Presentation Awards",
+      "org": "Academy of Criminal Justice Sciences",
+      "type": "Manuscript",
+      "field": "Criminology",
+      "deadline": "2026-12-01",
+      "route": "Self-nomination",
+      "publication": "Check publication rules",
+      "eligibility": "Enrolled student authors only; student-panel abstract submitted by conference deadline; present at meeting and submit slides plus 10–15 minute video; membership not required at application.",
+      "url": "https://www.acjs.org/acjs-academy-awards-2027/",
+      "cycle": "2027 call",
+      "prize": "$200–$500",
+      "fit": 5,
+      "added": "2026-11-27",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "acjs-poster",
+      "title": "Student Poster Presentation Awards",
+      "org": "Academy of Criminal Justice Sciences",
+      "type": "Poster",
+      "field": "Criminology",
+      "deadline": "2026-12-01",
+      "route": "Self-nomination",
+      "publication": "Poster / research",
+      "eligibility": "Enrolled student authors only; poster abstract submitted by conference deadline; display at meeting and submit 3–5 minute video; membership not required at application.",
+      "url": "https://www.acjs.org/acjs-academy-awards-2027/",
+      "cycle": "2027 call",
+      "prize": "$200–$500",
+      "fit": 4,
+      "added": "2026-11-27",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "acjs-simon",
+      "title": "William L. Simon/Routledge Outstanding Paper Award",
+      "org": "Academy of Criminal Justice Sciences",
+      "type": "Manuscript",
+      "field": "Criminology",
+      "deadline": null,
+      "route": "Self-nomination",
+      "publication": "Prior conference paper",
+      "eligibility": "Paper presented at preceding ACJS annual meeting; edited electronic paper and nomination letter. 2027 cycle closed September 1, 2026; next call unconfirmed.",
+      "url": "https://www.acjs.org/acjs-academy-awards-2027/",
+      "cycle": "Watchlist",
+      "prize": "$500 last cycle",
+      "fit": 5,
+      "added": "2026-11-27",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "acjs-braswell",
+      "title": "Michael C. Braswell/Routledge Outstanding Dissertation Award",
+      "org": "Academy of Criminal Justice Sciences",
+      "type": "Dissertation",
+      "field": "Criminology",
+      "deadline": null,
+      "route": "Third-party nomination",
+      "publication": "Completed dissertation",
+      "eligibility": "Dissertation completed within two years of nomination; author must be ACJS member; self-nomination prohibited. 2027 cycle closed September 1, 2026; future eligibility only.",
+      "url": "https://www.acjs.org/acjs-academy-awards-2027/",
+      "cycle": "Watchlist",
+      "prize": "$300 last cycle",
+      "fit": 4,
+      "added": "2026-11-27",
+      "checked": "2026-11-27"
     }
   ]
 }
